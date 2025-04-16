@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "XYZ Roadmap"
-  text: "Where are we at??"
+  text: "Where are we??🤔"
   tagline: A good map always has a long road
   image: /geolytix_logo_blue.svg
   actions:
@@ -25,7 +25,7 @@ features:
 ---
 
 <script setup>
-import RoadmapTimeline from './src/components/RoadmapTimeline.vue'
+import RoadmapTimeline from './src/components/RoadmapTimeLine.vue'
 
 const roadmap = [
   { date: '2024-03', title: 'v4.13.1 Released', description: 'Major improvements and bug fixes.' },
