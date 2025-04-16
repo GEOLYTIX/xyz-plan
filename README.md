@@ -1,4 +1,4 @@
-# Project
+# XYZ Project Planning
 
 A documentation site powered by [VitePress](https://vitepress.dev/).
 
