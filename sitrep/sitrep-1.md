@@ -17,7 +17,7 @@ layout: doc
 | Icons in buttons shouldn't be selectable                | ✅     | v4.13.1   | [#2051](https://github.com/GEOLYTIX/xyz/issues/2051)       |
 | pill - inner close button always constrasting           | 👀     | v4.13.2   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
 
-## Dennis 5/10
+## Dennis 7/10
 
 | title                                                   | status | iteration | issue                                                                        |
 | ------------------------------------------------------- | ------ | --------- | ---------------------------------------------------------------------------- |
@@ -29,8 +29,8 @@ layout: doc
 | entry with query hasRun; blocked query                  | ⚪️     | v4.13.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348)                         |
 | Nested locales / Merging locales                        | 👀     | v4.14.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922)                         |
 | check for string property in date entry module          | ✅     | v4.13.1   | [#2042](https://github.com/GEOLYTIX/xyz/issues/2042)                         |
-| Default user filter                                     | 👀     | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
-| locale.layer merge in getLayer module                   | 👀     | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
+| Default user filter                                     | ✅     | v4.14.0   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
+| locale.layer merge in getLayer module                   | ✅     | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
 
 ## Simon 2/4
 
@@ -41,11 +41,11 @@ layout: doc
 | User Domains Fix                                                       | ✅     | v4.13.1   | [#2044](https://github.com/GEOLYTIX/xyz/issues/2044) |
 | Temporal Fix                                                           | ✅     | v4.13.1   | [#2058](https://github.com/GEOLYTIX/xyz/pull/2058)   |
 
-## Alex 3/4
+## Alex 4/4
 
 | assignee                                            | title | status  | iteration                                            | issue |
 | --------------------------------------------------- | ----- | ------- | ---------------------------------------------------- | ----- |
-| search / filter dropdown                            | 👀    | v4.14.0 | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
+| search / filter dropdown                            | ✅    | v4.14.0 | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
 | SQL Insert Template                                 | ✅    | v4.14.0 | [#1970](https://github.com/GEOLYTIX/xyz/issues/1970) |
 | mailer / nodemailer dependency, export, and testing | ✅    | v4.13.1 | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
 | xhr util onload/abort                               | ✅    | v4.14.0 | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
