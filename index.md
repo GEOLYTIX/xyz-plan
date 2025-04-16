@@ -25,7 +25,7 @@ features:
 ---
 
 <script setup>
-import RoadmapTimeline from './.vitepress/components/RoadmapTimeline.vue'
+import RoadmapTimeline from './src/components/RoadmapTimeline.vue'
 
 const roadmap = [
   { date: '2024-03', title: 'v4.13.1 Released', description: 'Major improvements and bug fixes.' },
