@@ -38,6 +38,6 @@ const roadmap = [
 ]
 </script>
 
-## Roadmap Timeline
+## Roadmap
 
 <RoadmapTimeline :items="roadmap" />
