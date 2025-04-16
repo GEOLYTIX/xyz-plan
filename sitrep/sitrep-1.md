@@ -17,15 +17,15 @@ layout: doc
 | Icons in buttons shouldn't be selectable                | ✅     | v4.13.1   | [#2051](https://github.com/GEOLYTIX/xyz/issues/2051)       |
 | pill - inner close button always constrasting           | 👀     | v4.13.2   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
 
-## Dennis 4/9
+## Dennis 5/9
 
 | title                                                   | status | iteration | issue                                                                        |
 | ------------------------------------------------------- | ------ | --------- | ---------------------------------------------------------------------------- |
-| Merge vector_layer entry method with layer entry method | ⚪️     | v4.14.0   | [#1586](https://github.com/GEOLYTIX/xyz/issues/1586)                         |
+| Merge vector_layer entry method with layer entry method | 👀     | v4.14.0   | [#1586](https://github.com/GEOLYTIX/xyz/issues/1586)                         |
 | XYZ merge deep utility module complexity                | ✅     | v4.13.1   | [#2016](https://github.com/GEOLYTIX/xyz/ishttps://www.lazyvim.org/sues/2016) |
 | location entry cloudinary module complexity and bugs    | ✅     | v4.13.1   | [#2015](https://github.com/GEOLYTIX/xyz/issues/2015)                         |
 | locations/entries/dataview complexity 27/20             | ✅     | v4.13.1   | [#2006](https://github.com/GEOLYTIX/xyz/issues/2006)                         |
-| Dataview development tools                              | 👀     | v4.14.0   | [#1994](https://github.com/GEOLYTIX/xyz/issues/1994)                         |
+| Dataview development tools                              | ✅     | v4.14.0   | [#1994](https://github.com/GEOLYTIX/xyz/issues/1994)                         |
 | entry with query hasRun; blocked query                  | ⚪️     | v4.13.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348)                         |
 | Nested locales / Merging locales                        | 👀     | v4.14.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922)                         |
 | check for string property in date entry module          | ✅     | v4.13.1   | [#2042](https://github.com/GEOLYTIX/xyz/issues/2042)                         |
@@ -44,7 +44,7 @@ layout: doc
 
 | assignee                                            | title | status  | iteration                                            | issue |
 | --------------------------------------------------- | ----- | ------- | ---------------------------------------------------- | ----- |
-| search / filter dropdown                            | 🟡    | v4.14.0 | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
+| search / filter dropdown                            | 👀    | v4.14.0 | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
 | SQL Insert Template                                 | ✅    | v4.14.0 | [#1970](https://github.com/GEOLYTIX/xyz/issues/1970) |
 | mailer / nodemailer dependency, export, and testing | ✅    | v4.13.1 | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
 | xhr util onload/abort                               | ✅    | v4.14.0 | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
