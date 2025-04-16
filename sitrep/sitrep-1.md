@@ -43,12 +43,12 @@ layout: doc
 
 ## Alex 4/4
 
-| assignee                                            | title | status  | iteration                                            | issue |
-| --------------------------------------------------- | ----- | ------- | ---------------------------------------------------- | ----- |
-| search / filter dropdown                            | ✅    | v4.14.0 | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
-| SQL Insert Template                                 | ✅    | v4.14.0 | [#1970](https://github.com/GEOLYTIX/xyz/issues/1970) |
-| mailer / nodemailer dependency, export, and testing | ✅    | v4.13.1 | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
-| xhr util onload/abort                               | ✅    | v4.14.0 | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
+| title                                               | status | iteration | issue                                                |
+| --------------------------------------------------- | ------ | --------- | ---------------------------------------------------- |
+| search / filter dropdown                            | ✅     | v4.14.0   | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
+| SQL Insert Template                                 | ✅     | v4.14.0   | [#1970](https://github.com/GEOLYTIX/xyz/issues/1970) |
+| mailer / nodemailer dependency, export, and testing | ✅     | v4.13.1   | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
+| xhr util onload/abort                               | ✅     | v4.14.0   | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
 
 ## Rob 4/6
 
