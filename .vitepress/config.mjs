@@ -21,8 +21,9 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "v4.13.1",
+				text: "v4.13.2",
 				items: [
+					{ text: "v4.13.2", link: "/release/v4.13.2" },
 					{ text: "v4.13.1", link: "/release/v4.13.1" },
 					{ text: "v4.13.0", link: "/release/v4.13.0" },
 				],
@@ -33,6 +34,14 @@ export default defineConfig({
 			{
 				text: "Sitrep",
 				items: [{ text: "March 24th - April 17th", link: "/sitrep/sitrep-1" }],
+			},
+			{
+				text: "Releases",
+				items: [
+					{ text: "v4.13.2", link: "/release/v4.13.2" },
+					{ text: "v4.13.1", link: "/release/v4.13.1" },
+					{ text: "v4.13.0", link: "/release/v4.13.0" },
+				],
 			},
 		],
 

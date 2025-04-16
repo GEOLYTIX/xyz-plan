@@ -14,22 +14,26 @@ hero:
 
 features:
   - title: v4.13.1
-    details: We have released v4.13.1. This comes off the back of our v4.13.0
-      release which was massive.
+    icon: 🩹
+    details: We have released v4.13.1, This provides quite a few CSS tweaks, and
+      bug fixes.
     link: /release/v4.13.1
-  - title: v4.14.0
-    details: What's coming in v4.14.0
-  - title: Future Work?
-    details: We have released v4.13.1. This comes off the back of our v4.13.0
-      release which was massive.
+  - title: v4.13.2
+    icon: 🩹
+    details: Crucial bugs are solved in this PR todo with user filters & SAML authentication.
+      bug fixes.
+    link: /release/v4.13.2
+  - icon: 🔮
+    title: Future Work?
+    details: More detail will provided soon 🔜
 ---
 
 <script setup>
 import RoadmapTimeline from './src/components/RoadmapTimeLine.vue'
 
 const roadmap = [
-  { date: '2024-03', title: 'v4.13.1 Released', description: 'Major improvements and bug fixes.' },
-  { date: '2024-05', title: 'v4.14.0 Planned', description: 'Upcoming features and enhancements.' },
+  { date: '2024-04-15', title: 'v4.13.1 Released', description: 'CSS tweaks and Bug Fixes' },
+  { date: '2024-04-17', title: 'v4.13.2 Release', description: 'Some Crucial bug fixes' },
   { date: '2024-06', title: 'Future Work', description: 'Long-term roadmap items.' },
 ]
 </script>
