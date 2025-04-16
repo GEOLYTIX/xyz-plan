@@ -17,7 +17,7 @@ layout: doc
 | Icons in buttons shouldn't be selectable                | ✅     | v4.13.1   | [#2051](https://github.com/GEOLYTIX/xyz/issues/2051)       |
 | pill - inner close button always constrasting           | 👀     | v4.13.2   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
 
-## Dennis 5/9
+## Dennis 5/10
 
 | title                                                   | status | iteration | issue                                                                        |
 | ------------------------------------------------------- | ------ | --------- | ---------------------------------------------------------------------------- |
@@ -29,7 +29,8 @@ layout: doc
 | entry with query hasRun; blocked query                  | ⚪️     | v4.13.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348)                         |
 | Nested locales / Merging locales                        | 👀     | v4.14.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922)                         |
 | check for string property in date entry module          | ✅     | v4.13.1   | [#2042](https://github.com/GEOLYTIX/xyz/issues/2042)                         |
-| Default user filter                                     | 👀     | v4.13.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
+| Default user filter                                     | 👀     | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
+| locale.layer merge in getLayer module                   | 👀     | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
 
 ## Simon 2/4
 
