@@ -31,7 +31,7 @@ layout: doc
 | check for string property in date entry module          | ✅     | v4.13.1   | [#2042](https://github.com/GEOLYTIX/xyz/issues/2042)                         |
 | Default user filter                                     | 👀     | v4.13.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
 
-## Simon 1/4
+## Simon 2/4
 
 | title                                                                  | status | iteration | issue                                                |
 | ---------------------------------------------------------------------- | ------ | --------- | ---------------------------------------------------- |
@@ -58,4 +58,4 @@ layout: doc
 | Mock preload 📦            | ❌     | v4.13.1   | [#1969](https://github.com/GEOLYTIX/xyz/issues/1969) |
 | parameter for add user api | ⚪️     | v4.13.1   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008) |
 | mailer username auth       | ✅     | v4.13.1   | [#2039](https://github.com/GEOLYTIX/xyz/issues/2039) |
-| mailer username auth       | ✅     | v4.13.2   | [#2063](https://github.com/GEOLYTIX/xyz/issues/2063) |
+| SAML dependency logic      | ✅     | v4.13.2   | [#2063](https://github.com/GEOLYTIX/xyz/issues/2063) |

@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "XYZ",
 	description: "A project application to show our progress",
+	head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		logo: {
