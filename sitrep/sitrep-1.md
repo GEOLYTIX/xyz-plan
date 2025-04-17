@@ -25,12 +25,13 @@ layout: doc
 | XYZ merge deep utility module complexity                | ✅     | Yes     | v4.13.1   | [#2016](https://github.com/GEOLYTIX/xyz/ishttps://www.lazyvim.org/sues/2016) |
 | location entry cloudinary module complexity and bugs    | ✅     | Yes     | v4.13.1   | [#2015](https://github.com/GEOLYTIX/xyz/issues/2015)                         |
 | locations/entries/dataview complexity 27/20             | ✅     | Yes     | v4.13.1   | [#2006](https://github.com/GEOLYTIX/xyz/issues/2006)                         |
-| Dataview development tools                              | ✅     | Yes     | v4.14.0   | [#1994](https://github.com/GEOLYTIX/xyz/issues/1994)                         |
+| Dataview development tools                              | ✅     | Yes     | v4.13.0   | [#1994](https://github.com/GEOLYTIX/xyz/issues/1994)                         |
 | entry with query hasRun; blocked query                  | ⚪️     | Yes     | v4.13.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348)                         |
 | Nested locales / Merging locales                        | 👀     | Yes     | v4.14.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922)                         |
 | check for string property in date entry module          | ✅     | No      | v4.13.1   | [#2042](https://github.com/GEOLYTIX/xyz/issues/2042)                         |
 | Default user filter                                     | ✅     | No      | v4.14.0   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2029)                         |
 | locale.layer merge in getLayer module                   | ✅     | No      | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
+| remove locale.layer merge from addlayer method          | 👀     | No      | v4.13.3   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
 
 ## Simon 2/4
 
@@ -45,7 +46,7 @@ layout: doc
 
 | title                                               | status | planned | iteration | issue                                                |
 | --------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| search / filter dropdown                            | ✅     | Yes     | v4.14.0   | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
+| search / filter dropdown                            | ✅     | Yes     | v4.13.2   | [#2007](https://github.com/GEOLYTIX/xyz/issues/2007) |
 | SQL Insert Template                                 | ✅     | Yes     | v4.14.0   | [#1970](https://github.com/GEOLYTIX/xyz/issues/1970) |
 | mailer / nodemailer dependency, export, and testing | ✅     | Yes     | v4.13.1   | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
 | xhr util onload/abort                               | ✅     | Yes     | v4.14.0   | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
