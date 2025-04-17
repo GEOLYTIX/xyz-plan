@@ -51,7 +51,7 @@ layout: doc
 | mailer / nodemailer dependency, export, and testing | ✅     | Yes     | v4.13.1   | [#1731](https://github.com/GEOLYTIX/xyz/issues/1731) |
 | xhr util onload/abort                               | ✅     | Yes     | v4.14.0   | [#1602](https://github.com/GEOLYTIX/xyz/issues/1602) |
 
-## Rob 4/7
+## Rob 4/6
 
 | title                      | status | planned | iteration | issue                                                |
 | -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
