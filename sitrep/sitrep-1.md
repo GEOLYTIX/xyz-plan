@@ -17,7 +17,7 @@ layout: doc
 | Icons in buttons shouldn't be selectable                | ✅     | No      | v4.13.1   | [#2051](https://github.com/GEOLYTIX/xyz/issues/2051)       |
 | pill - inner close button always constrasting           | 👀     | No      | v4.13.2   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
 
-## Dennis 7/10
+## Dennis 7/11
 
 | title                                                   | status | planned | iteration | issue                                                                        |
 | ------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------------------------------- |
