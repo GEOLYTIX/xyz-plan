@@ -33,7 +33,10 @@ export default defineConfig({
 		sidebar: [
 			{
 				text: "Sitrep",
-				items: [{ text: "March 24th - April 17th", link: "/sitrep/sitrep-1" }],
+				items: [
+					{ text: "April 22nd - May 6th", link: "/sitrep/sitrep-2" },
+					{ text: "March 24th - April 17th", link: "/sitrep/sitrep-1" },
+				],
 			},
 			{
 				text: "Releases",

@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Sit Rep
-      link: /sitrep/sitrep-1
+      link: /sitrep/sitrep-2
 
 features:
   - title: v4.13.1
