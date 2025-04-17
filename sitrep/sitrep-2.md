@@ -20,7 +20,7 @@ layout: doc
 | Nested locales / Merging locales                        | 👀     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
 | entry with query hasRun; blocked query                  | ⚪️     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
 | Merge vector_layer entry method with layer entry method | 👀     | Yes     | v4.15.0   | [#1586](https://github.com/GEOLYTIX/xyz/issues/1586) |
-| remove locale.layer merge from addlayer method          | 👀     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
+| remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | Caching File Sytem resources                            | ⚪️     | Yes     | v4.14.1   | [#1634](https://github.com/GEOLYTIX/xyz/issues/1634) |
 
 ## Simon
@@ -42,7 +42,7 @@ layout: doc
 
 ## Rob
 
-| title                      | status | planned | iteration | issue                                                    |
-| -------------------------- | ------ | ------- | --------- | -------------------------------------------------------- |
-| parameter for add user api | ⚪️     | Yes     | v4.15.0   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008)     |
+| title                      | status | planned | iteration | issue                                                |
+| -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| parameter for add user api | ⚪️     | Yes     | v4.15.0   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008) |
 | Biome Linting              | ⚪️     | Yes     | v4.14.1   | [#2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
