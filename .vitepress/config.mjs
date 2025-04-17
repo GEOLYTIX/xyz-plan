@@ -21,8 +21,9 @@ export default defineConfig({
 				],
 			},
 			{
-				text: "v4.13.2",
+				text: "v4.14.0",
 				items: [
+					{ text: "v4.14.0", link: "/release/v4.14.0" },
 					{ text: "v4.13.2", link: "/release/v4.13.2" },
 					{ text: "v4.13.1", link: "/release/v4.13.1" },
 					{ text: "v4.13.0", link: "/release/v4.13.0" },
@@ -41,6 +42,7 @@ export default defineConfig({
 			{
 				text: "Releases",
 				items: [
+					{ text: "v4.14.0", link: "/release/v4.14.0" },
 					{ text: "v4.13.2", link: "/release/v4.13.2" },
 					{ text: "v4.13.1", link: "/release/v4.13.1" },
 					{ text: "v4.13.0", link: "/release/v4.13.0" },
