@@ -33,14 +33,15 @@ layout: doc
 | locale.layer merge in getLayer module                   | ✅     | No      | v4.13.2   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
 | remove locale.layer merge from addlayer method          | 👀     | No      | v4.13.3   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061)                         |
 
-## Simon 2/4
+## Simon 2/5
 
 | title                                                                  | status | planned | iteration | issue                                                |
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Ping utility                                                           | 🟡     | Yes     | v4.14.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
+| Ping utility                                                           | 👀     | Yes     | v4.14.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.14.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
 | User Domains Fix                                                       | ✅     | No      | v4.13.1   | [#2044](https://github.com/GEOLYTIX/xyz/issues/2044) |
 | Temporal Fix                                                           | ✅     | No      | v4.13.1   | [#2058](https://github.com/GEOLYTIX/xyz/pull/2058)   |
+| Character Mismatch in CSV Download                                     | 👀     | No      | v4.13.2   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
 
 ## Alex 4/4
 
