@@ -32,9 +32,9 @@ features:
 import RoadmapTimeline from './src/components/RoadmapTimeLine.vue'
 
 const roadmap = [
-  { date: '2024-04-15', title: 'v4.13.1 Released', description: 'CSS tweaks and Bug Fixes' },
-  { date: '2024-04-17', title: 'v4.13.2 Release', description: 'Some Crucial bug fixes' },
-  { date: '2024-06', title: 'Future Work', description: 'Long-term roadmap items.' },
+  { date: '2025-04-15', title: 'v4.13.1 Released', description: 'CSS tweaks and Bug Fixes' },
+  { date: '2025-04-17', title: 'v4.13.2 Release', description: 'Some Crucial bug fixes' },
+  { date: '2025-06', title: 'Future Work', description: 'Long-term roadmap items.' },
 ]
 </script>
 
