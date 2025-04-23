@@ -9,7 +9,7 @@ layout: doc
 | title                                         | status | planned | iteration | issue                                                |
 | --------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Histogram element and query                   | 👀     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
-| pill - inner close button always constrasting | 👀     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
+| pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
 | css for a button with material icon           | ⚪️     | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917) |
 | Toast Element                                 | ⚪️     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
 
