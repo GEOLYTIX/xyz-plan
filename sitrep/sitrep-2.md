@@ -46,3 +46,4 @@ layout: doc
 | -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | parameter for add user api | ⚪️     | Yes     | v4.15.0   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008) |
 | Biome Linting              | ⚪️     | Yes     | v4.14.1   | [#2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
+| pg versioning              | 👀     | Yes     | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
