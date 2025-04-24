@@ -8,17 +8,17 @@ layout: doc
 
 | title                                         | status | planned | iteration | issue                                                |
 | --------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Histogram element and query                   | 👀     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
+| Histogram element and query                   | ✅     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
 | pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
 | css for a button with material icon           | ⚪️     | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917) |
-| Toast Element                                 | ⚪️     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
+| Toast Element                                 | 👀     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
 
 ## Dennis
 
 | title                                                   | status | planned | iteration | issue                                                |
 | ------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Nested locales / Merging locales                        | 👀     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
-| entry with query hasRun; blocked query                  | 🟡     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
+| entry with query hasRun; blocked query                  | 👀     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
 | Merge vector_layer entry method with layer entry method | 👀     | Yes     | v4.15.0   | [#1586](https://github.com/GEOLYTIX/xyz/issues/1586) |
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | Caching File Sytem resources                            | ⚪️     | Yes     | v4.14.1   | [#1634](https://github.com/GEOLYTIX/xyz/issues/1634) |
@@ -27,8 +27,8 @@ layout: doc
 
 | title                              | status | planned | iteration | issue                                                |
 | ---------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Ping utility                       | 👀     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
-| Character Mismatch in CSV Download | 👀     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
+| Ping utility                       | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
+| Character Mismatch in CSV Download | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
 | Complete user settings plugin      | ⚪️     | Yes     |           | PLUGIN                                               |
 
 ## Alex
