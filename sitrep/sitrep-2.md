@@ -6,7 +6,7 @@ layout: doc
 
 ## Agata
 
-| title                                         | status | planned | iteration | issue                                                |
+| title                                         | status | planned | iteration | issue/pr                                             |
 | --------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Histogram element and query                   | ✅     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
 | pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
@@ -15,17 +15,17 @@ layout: doc
 
 ## Dennis
 
-| title                                                   | status | planned | iteration | issue                                                |
+| title                                                   | status | planned | iteration | issue/pr                                             |
 | ------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Nested locales / Merging locales                        | 👀     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
 | entry with query hasRun; blocked query                  | 👀     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
-| Merge vector_layer entry method with layer entry method | 👀     | Yes     | v4.15.0   | [#1586](https://github.com/GEOLYTIX/xyz/issues/1586) |
+| Merge vector_layer entry method with layer entry method | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | Caching File Sytem resources                            | ⚪️     | Yes     | v4.14.1   | [#1634](https://github.com/GEOLYTIX/xyz/issues/1634) |
 
 ## Simon
 
-| title                              | status | planned | iteration | issue                                                |
+| title                              | status | planned | iteration | issue/pr                                             |
 | ---------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Ping utility                       | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | Character Mismatch in CSV Download | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
@@ -33,7 +33,7 @@ layout: doc
 
 ## Alex
 
-| title                                                                  | status | planned | iteration | issue                                                |
+| title                                                                  | status | planned | iteration | issue/pr                                             |
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
@@ -42,8 +42,8 @@ layout: doc
 
 ## Rob
 
-| title                      | status | planned | iteration | issue                                                |
+| title                      | status | planned | iteration | issue/pr                                             |
 | -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | parameter for add user api | ⚪️     | Yes     | v4.15.0   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008) |
 | Biome Linting              | 👀     | Yes     | v4.14.1   | [#2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
-| pg versioning              | 👀     | Yes     | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
+| pg versioning              | ✅     | Yes     | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
