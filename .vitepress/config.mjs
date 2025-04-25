@@ -15,15 +15,10 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      //{
-      //  text: 'Guides',
-      //  //link: '/guides/index',
-      //  activeMatch: 'guides',
-      //  items: [
-      //    { text: 'XYZ', link: '/guides/xyz' },
-      //    { text: 'MAPP', link: '/guides/mapp' },
-      //  ],
-      //},
+      {
+        text: 'Wiki',
+        link: '/wiki/index',
+      },
       {
         text: 'Docs',
         items: [
@@ -43,14 +38,76 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/guides/xyz': [
+      '/wiki/': [
         {
           items: [
             {
-              text: 'api',
-              link: '/guides/xyz/api',
+              text: 'XYZ',
+              link: '/wiki/xyz',
+              items: [
+                {
+                  text: 'Workspace',
+                  link: '/wiki/xyz/workspace',
+                  items: [
+                    {
+                      text: 'Template',
+                      link: '/wiki/xyz/workspace/template',
+                    },
+                    {
+                      text: 'Locale',
+                      link: '/wiki/xyz/workspace/locale',
+                    },
+                    {
+                      text: 'Layer',
+                      link: '/wiki/xyz/workspace/layer/',
+                      collapsed: true,
+                      items: [
+                        {
+                          text: 'Roles',
+                          link: '/wiki/xyz/workspace/layer/roles',
+                        },
+                        {
+                          text: 'Filter',
+                          link: '/wiki/xyz/workspace/layer/filter',
+                        },
+                        {
+                          text: 'Draw',
+                          link: '/wiki/xyz/workspace/layer/draw',
+                        },
+                        {
+                          text: 'Format',
+                          link: '/wiki/xyz/workspace/layer/format',
+                        },
+                        {
+                          text: 'Style',
+                          link: '/wiki/xyz/workspace/layer/style',
+                        },
+                        {
+                          text: 'Location',
+                          link: '/wiki/xyz/workspace/layer/location/',
+                          items: [
+                            {
+                              text: 'infoj',
+                              link: '/wiki/xyz/workspace/layer/location/infoj',
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
-            { text: 'roles', link: '/guides/xyz/roles' },
+            {
+              text: 'MAPP',
+              link: '/wiki/mapp',
+              items: [
+                {
+                  text: 'UI',
+                  link: '/wiki/mapp/ui',
+                },
+              ],
+            },
           ],
         },
       ],
