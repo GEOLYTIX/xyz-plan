@@ -28,8 +28,8 @@
 defineProps({
   items: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 </script>
 
