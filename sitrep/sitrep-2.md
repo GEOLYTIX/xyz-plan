@@ -46,4 +46,11 @@ layout: doc
 | -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | parameter for add user api | ⚪️     | Yes     | v4.15.0   | [#2008](https://github.com/GEOLYTIX/xyz/issues/2008) |
 | Biome Linting              | ✅     | Yes     | v4.14.1   | [#2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
-| pg versioning              | ✅     | Yes     | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
+| pg versioning              | ✅     | no      | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
+| workflow permissions       | ✅     | no      | v4.14.1   | [#2083](https://github.com/GEOLYTIX/xyz/issues/2083) |
+
+## Icebox
+
+| title                      | status | planned | iteration | issue/pr                                             |
+| -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| parameter for add user api | ⚪️     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
