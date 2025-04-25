@@ -37,7 +37,7 @@ layout: doc
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
-| layer view panel content without a drawer element                      | ⚪️     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
+| layer view panel content without a drawer element                      | 👀     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
 | Dropdown element in scrollable container                               | ⚪️     | Yes     | v4.14.1   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
 
 ## Rob
