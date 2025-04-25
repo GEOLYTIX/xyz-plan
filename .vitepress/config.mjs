@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'XYZ',
   description: 'A project application to show our progress',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
@@ -42,7 +43,6 @@ export default defineConfig({
           ],
         },
       ],
-
       '/release/': [
         {
           text: 'Releases',
