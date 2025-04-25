@@ -20,7 +20,8 @@ features:
     link: /release/v4.13.1
   - title: v4.13.2
     icon: 🩹
-    details: Crucial bugs are solved in this PR todo with user filters & SAML authentication.
+    details:
+      Crucial bugs are solved in this PR todo with user filters & SAML authentication.
       bug fixes.
     link: /release/v4.13.2
   - icon: 🔮

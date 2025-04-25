@@ -6,6 +6,7 @@ export default defineConfig({
   description: 'A project application to show our progress',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
@@ -14,6 +15,15 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
+      //{
+      //  text: 'Guides',
+      //  //link: '/guides/index',
+      //  activeMatch: 'guides',
+      //  items: [
+      //    { text: 'XYZ', link: '/guides/xyz' },
+      //    { text: 'MAPP', link: '/guides/mapp' },
+      //  ],
+      //},
       {
         text: 'Docs',
         items: [
@@ -33,12 +43,37 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/guide/': [],
+      '/guides/xyz': [
+        {
+          items: [
+            {
+              text: 'api',
+              link: '/guides/xyz/api',
+            },
+            { text: 'roles', link: '/guides/xyz/roles' },
+          ],
+        },
+      ],
+
+      '/guides/mapp': [
+        {
+          items: [
+            {
+              text: 'one',
+              link: '/guides/mapp/one',
+            },
+            { text: 'two', link: '/guides/xyz/roles' },
+          ],
+        },
+      ],
       '/sitrep/': [
         {
           text: 'Sitrep',
           items: [
-            { text: 'April 22nd - May 6th', link: '/sitrep/sitrep-2' },
+            {
+              text: 'April 22nd - May 6th',
+              link: '/sitrep/sitrep-2',
+            },
             { text: 'March 24th - April 17th', link: '/sitrep/sitrep-1' },
           ],
         },
