@@ -127,7 +127,7 @@ By default this will show as dd/mm/yyyy, hh:mm:ss.<br> To return just the date i
 ```json
 {
   "field": "date",
-  "type": "date",
+  "type": "date", // [!code focus:6]
   "locale": "en-UK",
   "options": {
     "year": "numeric",
@@ -148,7 +148,7 @@ By default this will show as dd/mm/yyyy, hh:mm:ss.<br>You can control this with 
 ```json
 {
   "field": "date",
-  "type": "datetime",
+  "type": "datetime", // [!code focus:6]
   "locale": "en-UK",
   "options": {
     "year": "numeric",
@@ -168,7 +168,7 @@ Database field must be of type numeric or varchar.
 {
   "title": "Time",
   "field": "time_field",
-  "type": "time"
+  "type": "time" // [!code focus]
 }
 ```
 
@@ -179,9 +179,9 @@ The icon style can be set as inline style provided as `icon_style` string value.
 
 ```json
 {
-  "type": "link",
-  "icon_class": "mask-icon open-in-new",
   "label": "Link",
+  "type": "link", // [!code focus:6]
+  "icon_class": "mask-icon open-in-new",
   "url": "https://geolytix.com",
   "params": {
     "param": "value"
@@ -198,7 +198,7 @@ An array of dependents [fields] can be defined. The matching entry values will b
 ```json
 {
   "label": "Snap to Postal Sector",
-  "type": "query_button",
+  "type": "query_button", // [!code focus:8]
   "query": "catchment_statistics_snap_to_postal_sector",
   "queryparams": {
     "id": true
@@ -220,7 +220,7 @@ The `type:report` entry is a legacy configuration that will resolve without warn
 ```json
 {
   "field": "field_name",
-  "type": "html",
+  "type": "html", // [!code focus:2]
   "fieldfx": "CONCAT('<a href=',field,'>Hyperlink</a></span>')"
 }
 ```
@@ -231,8 +231,8 @@ The `type:report` entry is a legacy configuration that will resolve without warn
 
 ```json
 {
-  "type": "title",
   "title": "This is a title",
+  "type": "title", // [!code focus:2]
   "css_title": "font-weight:400"
 }
 ```
@@ -244,7 +244,7 @@ The `type:json` entry value is a json object. The SQL field must be type json to
 ```json
 {
   "field": "json_field",
-  "type": "json",
+  "type": "json", // [!code focus]
   "edit: true
 }
 ```
@@ -256,7 +256,7 @@ The `type:pills` entry value requires an array value. The array values will be d
 ```json
 {
   "field": "arr_field",
-  "type": "pills"
+  "type": "pills" // [!code focus]
 }
 ```
 
@@ -269,7 +269,7 @@ A `cloudinary_folder` must be provided to determine the location where the image
 ```json
 {
   "field": "field_name",
-  "type": "image",
+  "type": "image", // [!code focus:3]
   "cloudinary_folder": "folder_name",
   "edit": true
 }
@@ -286,7 +286,7 @@ A `cloudinary_folder` must be provided to determine the location where the image
 ```json
 {
   "field": "field_name",
-  "type": "images",
+  "type": "images", // [!code focus:3]
   "cloudinary_folder": "folder_name",
   "edit": true
 }
