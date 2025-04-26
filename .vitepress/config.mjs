@@ -13,6 +13,10 @@ export default defineConfig({
       light: '/geolytix.svg',
       dark: '/geolytix_dark.svg',
     },
+    editLink: {
+      pattern: 'https://github.com/GEOLYTIX/xyz-plan/edit/main/:path',
+      text: 'Edit this page on GitHub',
+    },
     nav: [
       { text: 'Home', link: '/' },
       {
