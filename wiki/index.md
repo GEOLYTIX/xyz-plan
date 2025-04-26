@@ -40,4 +40,3 @@ We highly recommend to clone this wiki in order to contribute via a desktop text
 ```
 git clone https://github.com/GEOLYTIX/xyz.wiki.git
 ```
-

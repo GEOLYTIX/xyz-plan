@@ -17,7 +17,20 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'Wiki',
-        link: '/wiki/index',
+        items: [
+          {
+            text: 'Home',
+            link: '/wiki/index',
+          },
+          {
+            text: 'XYZ',
+            link: '/wiki/xyz/',
+          },
+          {
+            text: 'MAPP',
+            link: '/wiki/mapp/',
+          },
+        ],
       },
       {
         text: 'Docs',
@@ -38,57 +51,61 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/wiki/': [
+      '/wiki/xyz': [
         {
           items: [
             {
-              text: 'XYZ',
-              link: '/wiki/xyz',
+              text: 'Workspace',
+              link: '/wiki/xyz/workspace',
               items: [
                 {
-                  text: 'Workspace',
-                  link: '/wiki/xyz/workspace',
+                  text: 'Template',
+                  link: '/wiki/xyz/workspace/template',
+                },
+                {
+                  text: 'Locale',
+                  link: '/wiki/xyz/workspace/locale',
+                },
+                {
+                  text: 'Layer',
+                  link: '/wiki/xyz/workspace/layer/',
+                  collapsed: true,
                   items: [
                     {
-                      text: 'Template',
-                      link: '/wiki/xyz/workspace/template',
+                      text: 'Roles',
+                      link: '/wiki/xyz/workspace/layer/roles',
                     },
                     {
-                      text: 'Locale',
-                      link: '/wiki/xyz/workspace/locale',
+                      text: 'Filter',
+                      link: '/wiki/xyz/workspace/layer/filter',
                     },
                     {
-                      text: 'Layer',
-                      link: '/wiki/xyz/workspace/layer/',
-                      collapsed: true,
+                      text: 'Draw',
+                      link: '/wiki/xyz/workspace/layer/draw',
+                    },
+                    {
+                      text: 'Format',
+                      link: '/wiki/xyz/workspace/layer/format',
+                    },
+                    {
+                      text: 'Style',
+                      link: '/wiki/xyz/workspace/layer/style',
+                    },
+                    {
+                      text: 'Location',
+                      link: '/wiki/xyz/workspace/layer/location/',
                       items: [
                         {
-                          text: 'Roles',
-                          link: '/wiki/xyz/workspace/layer/roles',
-                        },
-                        {
-                          text: 'Filter',
-                          link: '/wiki/xyz/workspace/layer/filter',
-                        },
-                        {
-                          text: 'Draw',
-                          link: '/wiki/xyz/workspace/layer/draw',
-                        },
-                        {
-                          text: 'Format',
-                          link: '/wiki/xyz/workspace/layer/format',
-                        },
-                        {
-                          text: 'Style',
-                          link: '/wiki/xyz/workspace/layer/style',
-                        },
-                        {
-                          text: 'Location',
-                          link: '/wiki/xyz/workspace/layer/location/',
+                          text: 'infoj',
+                          link: '/wiki/xyz/workspace/layer/location/infoj/',
                           items: [
                             {
-                              text: 'infoj',
-                              link: '/wiki/xyz/workspace/layer/location/infoj',
+                              text: 'entry',
+                              link: '/wiki/xyz/workspace/layer/location/infoj/entry',
+                            },
+                            {
+                              text: 'filter',
+                              link: '/wiki/xyz/workspace/layer/location/infoj/filter',
                             },
                           ],
                         },
@@ -98,6 +115,12 @@ export default defineConfig({
                 },
               ],
             },
+          ],
+        },
+      ],
+      '/wiki/mapp': [
+        {
+          items: [
             {
               text: 'MAPP',
               link: '/wiki/mapp',
@@ -108,18 +131,6 @@ export default defineConfig({
                 },
               ],
             },
-          ],
-        },
-      ],
-
-      '/guides/mapp': [
-        {
-          items: [
-            {
-              text: 'one',
-              link: '/guides/mapp/one',
-            },
-            { text: 'two', link: '/guides/xyz/roles' },
           ],
         },
       ],
@@ -147,7 +158,6 @@ export default defineConfig({
         },
       ],
     },
-
     socialLinks: [{ icon: 'github', link: 'https://github.com/GEOLYTIX/xyz' }],
   },
 });
