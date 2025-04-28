@@ -5,12 +5,10 @@ features:
     icon: 🚀
     details: How to get started with xyz.
     link: /wiki/getting-started
-  - title: v4.13.2
-    icon: 🩹
-    details:
-      Crucial bugs are solved in this PR todo with user filters & SAML authentication.
-      bug fixes.
-    link: /release/v4.13.2
+  - title: Clean Code Guidelines
+    icon: 🧼
+    details: Our different Clean code requirements
+    link: /wiki/clean-code
   - icon: 🔮
     title: Future Work?
     details: More detail will provided soon 🔜

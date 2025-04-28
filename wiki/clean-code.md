@@ -1,3 +1,5 @@
+# Clean Code Guidelines
+
 Please leave a blank line before a comment.
 
 A function must not end with an if statement.
@@ -90,6 +92,7 @@ console.log(error)
 ```
 
 Prevent double negation checks.
+
 ```
 // DO
 if (check)
@@ -97,3 +100,4 @@ if (check)
 // DON'T
 if (!no_check)
 ```
+

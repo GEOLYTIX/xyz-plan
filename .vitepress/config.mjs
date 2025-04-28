@@ -62,6 +62,10 @@ export default defineConfig({
               text: 'Getting started',
               link: '/wiki/getting-started',
             },
+            {
+              text: 'Clean Code Guidelines',
+              link: '/wiki/clean-code',
+            },
           ],
         },
       ],
