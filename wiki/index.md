@@ -32,8 +32,5 @@ The [**Process Environment**](https://github.com/GEOLYTIX/xyz/wiki/environment) 
 
 [**Plugins**](https://github.com/GEOLYTIX/xyz/wiki/Plugins) extend the core functionality of the MAPP and UI libraries.
 
-We highly recommend to clone this wiki in order to contribute via a desktop text editor such a vscode.
-
-```
-git clone https://github.com/GEOLYTIX/xyz.wiki.git
-```
+> [!NOTE]
+> You can make contributions to each page by making use of the "Edit this page on Github" button at the end of page.

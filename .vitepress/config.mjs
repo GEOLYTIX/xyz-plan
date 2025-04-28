@@ -55,20 +55,6 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/wiki/': [
-        {
-          items: [
-            {
-              text: 'Getting started',
-              link: '/wiki/getting-started',
-            },
-            {
-              text: 'Clean Code Guidelines',
-              link: '/wiki/clean-code',
-            },
-          ],
-        },
-      ],
       '/wiki/xyz': [
         {
           items: [
@@ -172,6 +158,20 @@ export default defineConfig({
             { text: 'v4.13.2', link: '/release/v4.13.2' },
             { text: 'v4.13.1', link: '/release/v4.13.1' },
             { text: 'v4.13.0', link: '/release/v4.13.0' },
+          ],
+        },
+      ],
+      '/wiki/': [
+        {
+          items: [
+            {
+              text: 'Getting started',
+              link: '/wiki/getting-started',
+            },
+            {
+              text: 'Clean Code Guidelines',
+              link: '/wiki/clean-code',
+            },
           ],
         },
       ],
