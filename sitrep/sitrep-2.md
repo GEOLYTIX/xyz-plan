@@ -52,6 +52,6 @@ layout: doc
 
 ## Icebox
 
-| title                      | status | planned | iteration | issue/pr                                             |
-| -------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| parameter for add user api | ⚪️     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
+| title                                             | status | planned | iteration | issue/pr                                             |
+| ------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| The control panel should be scrollable/responsive | ⚪️     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
