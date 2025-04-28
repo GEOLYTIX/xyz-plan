@@ -55,6 +55,16 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/wiki/': [
+        {
+          items: [
+            {
+              text: 'Getting started',
+              link: '/wiki/getting-started',
+            },
+          ],
+        },
+      ],
       '/wiki/xyz': [
         {
           items: [

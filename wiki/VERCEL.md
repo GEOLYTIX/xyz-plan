@@ -4,7 +4,7 @@ The XYZ host can be deployed as a [serverless function](https://vercel.com/docs/
 
 A [project config](https://vercel.com/docs/project-configuration) `vercel.json` is required in the root.
 
-The config json defines [security] headers, rewrites for [XYZ endpoints](https://github.com/GEOLYTIX/xyz/wiki/XYZ---API), and [process environment variables](https://github.com/GEOLYTIX/xyz/wiki/XYZ#environment-process). 
+The config json defines [security] headers, rewrites for [XYZ endpoints](https://github.com/GEOLYTIX/xyz/wiki/XYZ---API), and [process environment variables](https://github.com/GEOLYTIX/xyz/wiki/XYZ#environment-process).
 
 ```json
 {
@@ -98,7 +98,7 @@ The config json defines [security] headers, rewrites for [XYZ endpoints](https:/
     }
   ],
   "env": {
-    "TITLE":"XYZ | MAPP"
+    "TITLE": "XYZ | MAPP"
   }
 }
 ```
@@ -139,3 +139,4 @@ A rewrite for the SAML endpoint must be added if [SAML is made available for the
 ## .vercel
 
 A successful deployment to Vercel will create a `.vercel` project folder in the root directory. Subsequent production deployments `vercel --force --prod` will automatically overwrite the existing deployment. The `.vercel` folder must be deleted in order to create a new or update a different deployment hosted through the Vercel platform.
+

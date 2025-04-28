@@ -1,23 +1,22 @@
 ---
-layout: doc
-# features:
-#   - title: v4.13.1
-#     icon: 🩹
-#     details: We have released v4.13.1, This provides quite a few CSS tweaks, and
-#       bug fixes.
-#     link: /release/v4.13.1
-#   - title: v4.13.2
-#     icon: 🩹
-#     details:
-#       Crucial bugs are solved in this PR todo with user filters & SAML authentication.
-#       bug fixes.
-#     link: /release/v4.13.2
-#   - icon: 🔮
-#     title: Future Work?
-#     details: More detail will provided soon 🔜
+layout: home
+features:
+  - title: Getting Started
+    icon: 🚀
+    details: How to get started with xyz.
+    link: /wiki/getting-started
+  - title: v4.13.2
+    icon: 🩹
+    details:
+      Crucial bugs are solved in this PR todo with user filters & SAML authentication.
+      bug fixes.
+    link: /release/v4.13.2
+  - icon: 🔮
+    title: Future Work?
+    details: More detail will provided soon 🔜
 ---
 
-# XYZ/Mapp Wiki
+## XYZ/Mapp Wiki
 
 The aim of this wiki is to provide an overview of the project and provide functional reference for developers and configurators.
 

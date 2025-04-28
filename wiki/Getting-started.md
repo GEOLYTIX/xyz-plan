@@ -1,3 +1,5 @@
+# Getting started
+
 Git and Node.js must be installed on your locale to get started.
 
 ## Clone the repository
@@ -18,7 +20,7 @@ npm install
 
 ## Build the library
 
-The mapp and ui library must be build. Esbuild will be installed from npm in the previous step. The build script is defined as _build in the package.json and can be executed with npm.
+The mapp and ui library must be build. Esbuild will be installed from npm in the previous step. The build script is defined as \_build in the package.json and can be executed with npm.
 
 ```console
 npm run _build
