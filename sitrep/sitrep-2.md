@@ -30,6 +30,7 @@ layout: doc
 | Ping utility                       | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | Character Mismatch in CSV Download | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
 | Complete user settings plugin      | ⚪️     | Yes     |           | PLUGIN                                               |
+| Gazetteer bug                      | 👀     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
 
 ## Alex
 
