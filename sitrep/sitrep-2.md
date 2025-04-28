@@ -25,12 +25,11 @@ layout: doc
 
 ## Simon
 
-| title                              | status | planned | iteration | issue/pr                                             |
-| ---------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Ping utility                       | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
-| Character Mismatch in CSV Download | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
-| Complete user settings plugin      | ⚪️     | Yes     |           | PLUGIN                                               |
-| Gazetteer bug                      | 👀     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
+| title                         | status | planned | iteration | issue/pr                                             |
+| ----------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| Ping utility                  | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
+| Complete user settings plugin | ⚪️     | Yes     |           | PLUGIN                                               |
+| Gazetteer bug                 | 👀     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
 
 ## Alex
 
@@ -56,3 +55,5 @@ layout: doc
 | Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
 | Dropdown element in scrollable container                               | ⚪️     | Yes     | v4.14.1   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
+| Character Mismatch in CSV Download                                     | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
+| Character Mismatch in CSV Download                                     | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
