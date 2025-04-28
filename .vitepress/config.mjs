@@ -176,6 +176,10 @@ export default defineConfig({
               text: 'Terminology',
               link: '/wiki/terminology',
             },
+            {
+              text: 'Vercel',
+              link: '/wiki/vercel',
+            },
           ],
         },
       ],

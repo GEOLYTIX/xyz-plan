@@ -13,6 +13,10 @@ features:
     icon: 📚
     details: Different xyz Terminology
     link: /wiki/terminology
+  - title: Hosting (Vercel)
+    icon: ▵
+    details: Hosting xyz with serverless Vercel Functions
+    link: /wiki/vercel
 ---
 
 ## XYZ/Mapp Wiki
