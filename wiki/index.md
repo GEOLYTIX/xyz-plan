@@ -9,9 +9,6 @@ features:
     icon: 🧼
     details: Our different Clean code requirements
     link: /wiki/clean-code
-  - icon: 🔮
-    title: Future Work?
-    details: More detail will provided soon 🔜
 ---
 
 ## XYZ/Mapp Wiki
