@@ -21,7 +21,7 @@ layout: doc
 | entry with query hasRun; blocked query                  | 👀     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
 | Merge vector_layer entry method with layer entry method | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
-| Caching File Sytem resources                            | ⚪️     | Yes     | v4.14.1   | [#1634](https://github.com/GEOLYTIX/xyz/issues/1634) |
+| query with reserved viewport fails                      | 👀     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
 
 ## Simon
 
