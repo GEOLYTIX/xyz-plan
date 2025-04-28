@@ -1,3 +1,5 @@
+# Terminology
+
 ## Cluster
 
 A collection of multiple locations represented as a single feature.
