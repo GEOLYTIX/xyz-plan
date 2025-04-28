@@ -17,6 +17,9 @@ export default defineConfig({
       pattern: 'https://github.com/GEOLYTIX/xyz-plan/edit/main/:path',
       text: 'Edit this page on GitHub',
     },
+    search: {
+      provider: 'local',
+    },
     nav: [
       { text: 'Home', link: '/' },
       {
@@ -171,6 +174,18 @@ export default defineConfig({
             {
               text: 'Clean Code Guidelines',
               link: '/wiki/clean-code',
+            },
+            {
+              text: 'Process Environment',
+              link: '/wiki/process-environment',
+            },
+            {
+              text: 'Terminology',
+              link: '/wiki/terminology',
+            },
+            {
+              text: 'Vercel',
+              link: '/wiki/vercel',
             },
           ],
         },

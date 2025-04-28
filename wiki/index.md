@@ -1,20 +1,27 @@
 ---
 layout: home
+hero:
+  name: "XYZ/MAPP Wiki"
 features:
   - title: Getting Started
     icon: 🚀
     details: How to get started with xyz.
     link: /wiki/getting-started
+  - title: Security
+    icon: 🔐
+    details: Security Protocols
+    link: /wiki/getting-started
   - title: Clean Code Guidelines
     icon: 🧼
     details: Our different Clean code requirements
     link: /wiki/clean-code
-  - icon: 🔮
-    title: Future Work?
-    details: More detail will provided soon 🔜
+  - title: Hosting (Vercel)
+    icon: ▵
+    details: Hosting xyz with serverless Vercel Functions
+    link: /wiki/vercel
 ---
 
-## XYZ/Mapp Wiki
+---
 
 The aim of this wiki is to provide an overview of the project and provide functional reference for developers and configurators.
 

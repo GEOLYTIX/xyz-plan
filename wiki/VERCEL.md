@@ -1,3 +1,5 @@
+# Vercel
+
 Vercel (formerly Zeit) is a cloud platform as a service company.
 
 The XYZ host can be deployed as a [serverless function](https://vercel.com/docs/concepts/functions/serverless-functions) with the [Vercel CLI](https://vercel.com/docs/cli) from the local repository root.
@@ -139,4 +141,3 @@ A rewrite for the SAML endpoint must be added if [SAML is made available for the
 ## .vercel
 
 A successful deployment to Vercel will create a `.vercel` project folder in the root directory. Subsequent production deployments `vercel --force --prod` will automatically overwrite the existing deployment. The `.vercel` folder must be deleted in order to create a new or update a different deployment hosted through the Vercel platform.
-
