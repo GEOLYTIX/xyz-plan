@@ -9,6 +9,10 @@ features:
     icon: 🧼
     details: Our different Clean code requirements
     link: /wiki/clean-code
+  - title: Terminology
+    icon: 📚
+    details: Different xyz Terminology
+    link: /wiki/terminology
 ---
 
 ## XYZ/Mapp Wiki

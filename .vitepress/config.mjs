@@ -172,6 +172,10 @@ export default defineConfig({
               text: 'Clean Code Guidelines',
               link: '/wiki/clean-code',
             },
+            {
+              text: 'Terminology',
+              link: '/wiki/terminology',
+            },
           ],
         },
       ],
