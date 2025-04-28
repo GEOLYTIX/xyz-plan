@@ -66,8 +66,8 @@ export default defineConfig({
               link: '/wiki/xyz/workspace',
               items: [
                 {
-                  text: 'Template',
-                  link: '/wiki/xyz/workspace/template',
+                  text: 'Templates',
+                  link: '/wiki/xyz/workspace/templates',
                 },
                 {
                   text: 'Locale',
