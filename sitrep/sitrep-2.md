@@ -56,4 +56,3 @@ layout: doc
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
 | Dropdown element in scrollable container                               | ⚪️     | Yes     | v4.14.1   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
 | Character Mismatch in CSV Download                                     | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
-| Character Mismatch in CSV Download                                     | ⚪️     | Yes     | v4.14.1   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
