@@ -173,6 +173,10 @@ export default defineConfig({
               link: '/wiki/clean-code',
             },
             {
+              text: 'Process Environment',
+              link: '/wiki/process-environment',
+            },
+            {
               text: 'Terminology',
               link: '/wiki/terminology',
             },
