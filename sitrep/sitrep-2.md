@@ -29,7 +29,7 @@ layout: doc
 | ----------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Ping utility                  | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | Complete user settings plugin | ⚪️     | Yes     |           | PLUGIN                                               |
-| Gazetteer bug                 | 👀     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
+| Gazetteer bug                 | ✅     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
 
 ## Alex
 
