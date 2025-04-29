@@ -18,11 +18,11 @@ layout: doc
 | title                                                   | status | planned | iteration | issue/pr                                             |
 | ------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Nested locales / Merging locales                        | 👀     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
-| entry with query hasRun; blocked query                  | 👀     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
+| entry with query hasRun; blocked query                  | ✅     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
 | Merge vector_layer entry method with layer entry method | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | query with reserved viewport fails                      | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
-| The control panel should be scrollable/responsive       | 👀     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
+| The control panel should be scrollable/responsive       | ✅     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
 
 ## Simon
 
