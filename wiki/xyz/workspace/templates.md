@@ -22,7 +22,7 @@ The src property will be removed if a resource is fetched from outside the [loca
 
 The Workspace API will return an error if unable to fetch a template from its src property.
 
-### SRC_* variable substitution
+### SRC\_\* variable substitution
 
 The src [string] property may contain a substitute variable. Before a template is fetched from the src location the string variable will be substituted with the value from a `SRC_*` environment variable which matches the string variable.
 
@@ -33,9 +33,11 @@ A locale or layer which references a workspace.templates{} key in template [stri
 In this example the `name` property of the `OSM` object will overwrite a name property in the `OSM_tile_layer` template.
 
 ```json
-"OSM": {
-  "name": "OSM",
-  "template": "OSM_tile_layer",
+{
+  "OSM": {
+    "name": "OSM",
+    "template": "OSM_tile_layer"
+  }
 }
 ```
 
@@ -44,10 +46,12 @@ In this example the `name` property of the `OSM` object will overwrite a name pr
 The template property can be an object with a src [string] property. In this example the Workspace API will fetch the template from its src when the `OSM` object is requested as a layer. The template will be cached in the workspace.templates{} with the src property as key if the object has no explicit key property.
 
 ```json
-"OSM": {
-  "name": "OSM",
-  "template": {
-    "src": "${RESOURCES}/templates/osm_layer.json"
+{
+  "OSM": {
+    "name": "OSM",
+    "template": {
+      "src": "${RESOURCES}/templates/osm_layer.json"
+    }
   }
 }
 ```
@@ -61,17 +65,19 @@ The templates referenced in the templates[] array are merged left to right into 
 In this example the `OSM` layer object is first merged into the `osm_layer` template overwriting the template `name` property. Thereafter the `osm_attribution` and the `osm_bw_style`[fetched from its src] will be merged into `OSM` object.
 
 ```json
-"OSM": {
-  "name": "OSM",
-  "template": {
-    "src": "${RESOURCES}/templates/osm_layer.json"
-  },
-  "templates": [
-    "osm_attribution",
-    {
-      "src": "${RESOURCES}/templates/osm_bw_style.json"
-    }
-  ]
+{
+  "OSM": {
+    "name": "OSM",
+    "template": {
+      "src": "${RESOURCES}/templates/osm_layer.json"
+    },
+    "templates": [
+      "osm_attribution",
+      {
+        "src": "${RESOURCES}/templates/osm_bw_style.json"
+      }
+    ]
+  }
 }
 ```
 
@@ -80,11 +86,14 @@ In this example the `OSM` layer object is first merged into the `osm_layer` temp
 The locale.layer{} object is the default object for every layer object defined in the locale.layers{}. Each layer object from the locale.layers{} will be merged into a clone of the locale.layer{} object.
 
 In this example the `repo` attribution property entry will be added to the attribution of each layer referenced in the locale.
+
 ```json
-"locale": {
-  "layer": {
-    "attribution": {
-      "repo": "https://github.com/GEOLYTIX/xyz"
+{
+  "locale": {
+    "layer": {
+      "attribution": {
+        "repo": "https://github.com/GEOLYTIX/xyz"
+      }
     }
   }
 }
@@ -102,19 +111,21 @@ Workspace objects are merged deeply with the XYZ API merge utility. String prope
 
 A query template is referenced in parameterised request to prevent SQL injection. The XYZ API will never directly accept SQL as a paramater. A SQL query template must be referenced in a query request with parameters for the query template string interpolation being validated by the XYZ API or substituted in the database.
 
-```js
-"table_parameter_query": {
- "template": "SELECT * from ${table}",
-},
-"nnearest_locations": {
-  "src": "file:/public/js/queries/nnearest_locations.sql",
-  "dbs": "DEV"
-},
-"module_query": {
-  "src": "file:/public/js/queries/infotip.js",
-  "module": true,
-  "dbs": "DEV"
-},
+```json
+{
+  "table_parameter_query": {
+    "template": "SELECT * from ${table}"
+  },
+  "nnearest_locations": {
+    "src": "file:/public/js/queries/nnearest_locations.sql",
+    "dbs": "DEV"
+  },
+  "module_query": {
+    "src": "file:/public/js/queries/infotip.js",
+    "module": true,
+    "dbs": "DEV"
+  }
+}
 ```
 
 ### Query .template object
@@ -125,13 +136,15 @@ The template{} object must have a key[string] property in order to be referenced
 
 In this example a location [infoj] entry requires the `count_rows` query [template]. The template[string] is defined in the template{} object. The template will be added as `count_rows{}` to the workspace.templates{} the first time the containing layer is referenced in any query.
 
-```
-"query": "count_rows",
-"template": {
-  "key": "count_rows",
-  "template": "SELECT count(*) $ FROM ${table}",
-  "dbs": "DEV"
-},
+```json
+{
+  "query": "count_rows",
+  "template": {
+    "key": "count_rows",
+    "template": "SELECT count(*) $ FROM ${table}",
+    "dbs": "DEV"
+  }
+}
 ```
 
 Instead of a template[string] the template{} object may also contain a src[string] property. The template will be fetched from the src when required by the Query API.
@@ -144,13 +157,17 @@ The default export of a javascript module [ESM] will be assigned as render() met
 
 Application views are html templates available to the View API.
 
-```js
-"embedded": {
- "src": "file:public/views/embedded.html"
+```json
+{
+  "embedded": {
+    "src": "file:public/views/embedded.html"
+  }
 }
 ```
 
-## Template _type
+## Template \_type
+
 The `_type="template"` property will be assigned to any workspace.templates{} object which is added from another template object.
 
 Templates defined in the workspace have the `_type="workspace"` property, and default templates assigned to every workspace have the `_type="core"` property.
+
