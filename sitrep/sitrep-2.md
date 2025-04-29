@@ -22,6 +22,7 @@ layout: doc
 | Merge vector_layer entry method with layer entry method | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | query with reserved viewport fails                      | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
+| The control panel should be scrollable/responsive       | 👀     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
 
 ## Simon
 
@@ -29,7 +30,8 @@ layout: doc
 | ----------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Ping utility                  | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | Complete user settings plugin | ⚪️     | Yes     |           | PLUGIN                                               |
-| Gazetteer bug                 | ✅     | No      |           | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
+| Gazetteer bug                 | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
+| queryParams geom bug          | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)   |
 
 ## Alex
 
@@ -52,7 +54,6 @@ layout: doc
 
 | title                                                                  | status | planned | iteration | issue/pr                                             |
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| The control panel should be scrollable/responsive                      | ⚪️     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
 | Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
 | Dropdown element in scrollable container                               | ⚪️     | Yes     | v4.14.1   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
