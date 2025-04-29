@@ -187,6 +187,10 @@ export default defineConfig({
               text: 'Vercel',
               link: '/wiki/vercel',
             },
+            {
+              text: 'Security',
+              link: '/wiki/security',
+            },
           ],
         },
       ],

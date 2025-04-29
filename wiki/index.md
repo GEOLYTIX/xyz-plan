@@ -10,7 +10,7 @@ features:
   - title: Security
     icon: 🔐
     details: Security Protocols
-    link: /wiki/getting-started
+    link: /wiki/security
   - title: Clean Code Guidelines
     icon: 🧼
     details: Our different Clean code requirements
