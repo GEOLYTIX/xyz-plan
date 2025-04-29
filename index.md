@@ -13,17 +13,16 @@ hero:
       link: /sitrep/sitrep-2
 
 features:
-  - title: v4.13.1
-    icon: 🩹
-    details: We have released v4.13.1, This provides quite a few CSS tweaks, and
-      bug fixes.
-    link: /release/v4.13.1
   - title: v4.13.2
     icon: 🩹
     details:
       Crucial bugs are solved in this PR todo with user filters & SAML authentication.
       bug fixes.
     link: /release/v4.13.2
+  - title: v4.14.1
+    icon: 🩹
+    details: Gazetteer, queryParams & the control panel bugs solved!
+    link: /release/v4.14.1
   - icon: 🔮
     title: Future Work?
     details: More detail will provided soon 🔜
@@ -33,9 +32,10 @@ features:
 import RoadmapTimeline from './src/components/RoadmapTimeLine.vue'
 
 const roadmap = [
-  { date: '2025-04-15', title: 'v4.13.1 Released', description: 'CSS tweaks and Bug Fixes' },
-  { date: '2025-04-17', title: 'v4.13.2 Release', description: 'Some Crucial bug fixes' },
-  { date: '2025-06', title: 'Future Work', description: 'Long-term roadmap items.' },
+  { date: '2025-04-15', title: 'v4.13.1', description: 'CSS tweaks and Bug Fixes', link: '/release/v4.13.1',  left: true },
+  { date: '2025-04-17', title: 'v4.13.2', description: 'Some Crucial bug fixes', link: '/release/v4.13.2', left: false },
+  { date: '2025-04-17', title: 'v4.14.0', description: 'XHR Abort Utility & Email Filter Added!', link: '/release/v4.14.0',  left: true },
+  { date: '2025-04-29', title: 'v4.14.1', description: 'Gazetteer, queryParams & the control panel bugs solved!',link: 'release/v4.14.1',  left: false },
 ]
 </script>
 
