@@ -11,12 +11,14 @@ A locale is referenced by it's `key`. A `name` can be defined for display in the
 The locale `extent` defines the geopgraphic limits of the mapview. It is not possible to pan the viewport outside the defined extent. The extent will also limit the min zoom. It is not possible to zoom out to a level where the viewport would exceeed the extent. The mapview beyond the extent will covered with a shade if the `mask` flag is set in the extent configuration.
 
 ```json
-"extent": {
-  "north": 91,
-  "east": 91,
-  "south": 91,
-  "west": 91,
-  "mask": true
+{
+  "extent": {
+    "north": 91,
+    "east": 91,
+    "south": 91,
+    "west": 91,
+    "mask": true
+  }
 }
 ```
 
@@ -25,10 +27,12 @@ The locale `extent` defines the geopgraphic limits of the mapview. It is not pos
 The centre of the mapview view[port] will be set to the fit the locale extent. The `view` can be set to an implicit `lat`, `lng`, and `z`.
 
 ```json
-"view": {
-  "lat": 91,
-  "lng": 91,
-  "z": 15
+{
+  "view": {
+    "lat": 91,
+    "lng": 91,
+    "z": 15
+  }
 }
 ```
 
