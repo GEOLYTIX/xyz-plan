@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'A project application to show our progress',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   lastUpdated: true,
-  cleanUrls: true,
+  cleanUrls: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
