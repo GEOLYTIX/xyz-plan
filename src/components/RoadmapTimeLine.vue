@@ -120,7 +120,7 @@ defineProps({
   position: relative;
   padding: 1rem 1.5rem;
   border-radius: 10px;
-  /*background: #002124;*/
+  background: var(--vp-c-sponsor-bg);
   /*color: #fafafa;*/
   box-shadow: 0 5px 9px #000;
   border-bottom: 2px solid var(--vp-c-brand-1);
