@@ -58,4 +58,3 @@ layout: doc
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
-| Character Mismatch in CSV Download                                     | ⚪️     | Yes     | v4.14.2   | [#2067](https://github.com/GEOLYTIX/xyz/pull/2067)   |
