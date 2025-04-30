@@ -50,7 +50,7 @@ layout: doc
 | pg versioning                           | ✅     | no      | v4.14.1   | [#2074](https://github.com/GEOLYTIX/xyz/issues/2074) |
 | workflow permissions                    | ✅     | no      | v4.14.1   | [#2083](https://github.com/GEOLYTIX/xyz/issues/2083) |
 | express v5                              | ✅     | no      | v4.14.1   | [#2084](https://github.com/GEOLYTIX/xyz/issues/2084) |
-| nodemailer with self signed certificate | ⚪️     | no      | v4.14.2   | [#2086](https://github.com/GEOLYTIX/xyz/issues/2086) |
+| nodemailer with self signed certificate | 👀     | no      | v4.14.2   | [#2086](https://github.com/GEOLYTIX/xyz/issues/2086) |
 
 ## Icebox
 
