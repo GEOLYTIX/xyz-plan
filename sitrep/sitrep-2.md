@@ -23,6 +23,7 @@ layout: doc
 | remove locale.layer merge from addlayer method          | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
 | query with reserved viewport fails                      | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
 | The control panel should be scrollable/responsive       | ✅     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
+| ACL Bug                                                 | 👀     | no      | v4.14.1   | [#2097](https://github.com/GEOLYTIX/xyz/issues/2097) |
 
 ## Simon
 
