@@ -33,6 +33,8 @@ layout: doc
 | Ping utility         | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
 | Gazetteer bug        | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
 | queryParams geom bug | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)   |
+| ping promise         | 👀     | No      | v4.14.1   | [#2106](https://github.com/GEOLYTIX/xyz/pull/2106)   |
+| Get Last Location    | 👀     | No      | v4.14.1   | [#2102](https://github.com/GEOLYTIX/xyz/pull/2102)   |
 
 ## Alex
 
