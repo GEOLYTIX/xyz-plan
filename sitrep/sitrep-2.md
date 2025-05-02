@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# April 22nd - May 6th
+# April 22nd - May 16th
 
 ## Agata
 
