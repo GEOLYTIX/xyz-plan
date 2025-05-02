@@ -1,0 +1,148 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "XYZ API",
+    "description": "THE XYZ API",
+    "version": "4.12.1"
+  },
+  "servers": [
+    {
+      "url": "",
+      "description": "Mock Server"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    },
+    {
+      "apiKeyHeader": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "provider",
+      "description": "The provider endpoint"
+    },
+    {
+      "name": "query",
+      "description": "The query endpoint"
+    },
+    {
+      "name": "sign",
+      "description": "The sign endpoint"
+    },
+    {
+      "name": "user",
+      "description": "The user endpoint"
+    },
+    {
+      "name": "view",
+      "description": "The view endpoint"
+    },
+    {
+      "name": "workspace",
+      "description": "The workspace endpoint"
+    }
+  ],
+  "paths": {
+    "/api/provider": {
+      "get": {
+        "tags": ["provider"],
+        "summary": "Get from provider",
+        "description": "Endpoint used to hit different providers",
+        "operationId": "provider",
+        "security": [{}],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/provider"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/Artist"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "$ref": "#/components/schemas/PaginatedResource"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      },
+      "apiKeyHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      }
+    },
+    "parameters": {
+      "provider": {
+        "name": "provider",
+        "in": "query",
+        "description": "provider name",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "Bad Request",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "Forbidden": {
+        "description": "Forbidden",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "NotFound",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    },
+    "schemas": {}
+  }
+}

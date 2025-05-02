@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: Sit Rep
       link: /sitrep/sitrep-2
+    - theme: brand
+      text: API
+      link: /api/
 
 features:
   - title: v4.13.2

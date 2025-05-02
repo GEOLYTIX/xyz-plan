@@ -1,5 +1,15 @@
 import { defineConfig } from 'vitepress';
 
+import { useSidebar } from 'vitepress-openapi';
+
+import spec from '../src/openapi.json' with { type: 'json' };
+
+const sidebar = useSidebar({
+  spec,
+  // Optionally, you can specify a link prefix for all generated sidebar items.
+  linkPrefix: '/wiki/xyz/api/',
+});
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'XYZ',
@@ -47,8 +57,9 @@ export default defineConfig({
         ],
       },
       {
-        text: 'v4.14.1',
+        text: 'v4.14.2',
         items: [
+          { text: 'v4.14.2', link: '/release/v4.14.2' },
           { text: 'v4.14.1', link: '/release/v4.14.1' },
           { text: 'v4.14.0', link: '/release/v4.14.0' },
           { text: 'v4.13.2', link: '/release/v4.13.2' },
@@ -121,6 +132,16 @@ export default defineConfig({
                     },
                   ],
                 },
+              ],
+            },
+            {
+              text: 'API',
+              link: '/wiki/xyz/api/',
+              items: [
+                ...sidebar.generateSidebarGroups().map((group) => ({
+                  ...group,
+                  collapsed: true,
+                })),
               ],
             },
           ],
