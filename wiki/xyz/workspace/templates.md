@@ -171,3 +171,44 @@ The `_type="template"` property will be assigned to any workspace.templates{} ob
 
 Templates defined in the workspace have the `_type="workspace"` property, and default templates assigned to every workspace have the `_type="core"` property.
 
+## .roles{}
+The roles property of a template defines which user has access to a template. The Workspace API will ignore templates in the composition of locale and layer objects.
+
+In the following example the `mapbox_layer_locale` locale template will only be merged into the default locale if the requesting user has the `mapbox` role. The `mapbox_layer_locale` will add a mapbox layer to the locale.layers{} object and a plugin to the locale.plugins which is required to load the layer format in the `mapbox_layer` template.
+
+```json
+{
+  "templates": {
+    "mapbox_layer": {
+      "format": "mapboxstyle",
+      "style": {
+        "URL": "mapbox://styles/dbauszus/cm6hs2100003c01sdclwv2o88"
+      },
+      "accessToken": "***"
+    },
+    "mapbox_layer_locale": {
+      "roles": {
+        "mapbox": true
+      },
+      "plugins": [
+        "${LOCAL}/bugs_testing/plugins/ol-mapbox-style.js"
+      ],
+      "layers": {
+        "mapbox_layer": {
+          "template": "mapbox_layer"
+        }
+      }
+    }
+  },
+  "locale": {
+    "templates": ["mapbox_layer_locale"],
+    "layers": {
+      "OSM": {
+        "name": "OSM",
+        "format": "tiles",
+        "URI": "https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      }
+    }
+  }
+}
+```
