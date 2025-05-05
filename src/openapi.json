@@ -7,8 +7,8 @@
   },
   "servers": [
     {
-      "url": "",
-      "description": "Mock Server"
+      "url": "localhost:3000",
+      "description": "local server"
     }
   ],
   "security": [
