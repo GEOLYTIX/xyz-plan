@@ -12,6 +12,7 @@ layout: doc
 | pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
 | css for a button with material icon           | ✅     | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917)       |
 | Toast Element                                 | ✅     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036)       |
+| Dropdown element in scrollable container      | ⚪️     | Yes     | v4.14.2   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952)       |
 | Complete user settings plugin                 | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
 
 ## Dennis
@@ -41,6 +42,7 @@ layout: doc
 | title                                             | status | planned | iteration | issue/pr                                             |
 | ------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | layer view panel content without a drawer element | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
+| Dialogs and drawer elements                       | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 
 ## Rob
 
@@ -57,6 +59,4 @@ layout: doc
 
 | title                                                                  | status | planned | iteration | issue/pr                                             |
 | ---------------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Dialogs and drawer elements                                            | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | icon_scaling.fields array to support different fields for icon scaling | ⚪️     | Yes     | v4.15.0   | [#1458](https://github.com/GEOLYTIX/xyz/issues/1458) |
-| Dropdown element in scrollable container                               | ⚪️     | Yes     | v4.14.2   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
