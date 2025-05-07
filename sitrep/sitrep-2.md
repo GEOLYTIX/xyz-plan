@@ -26,6 +26,8 @@ layout: doc
 | query with reserved viewport fails                      | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
 | The control panel should be scrollable/responsive       | ✅     | no      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
 | ACL Bug                                                 | ✅     | no      | v4.14.1   | [#2097](https://github.com/GEOLYTIX/xyz/issues/2097) |
+| Template Roles Restriction                              | ✅     | no      | v4.15.0   | [#2111](https://github.com/GEOLYTIX/xyz/issues/2111) |
+| Return dropdown node without pills                      | 👀     | no      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
 
 ## Simon
 
