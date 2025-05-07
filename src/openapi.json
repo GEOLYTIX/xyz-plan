@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "localhost:3000",
+      "url": "http:localhost:3000",
       "description": "local server"
     }
   ],
@@ -64,22 +64,16 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "allOf": [
-                    {
-                      "type": "object",
-                      "properties": {
-                        "data": {
-                          "type": "array",
-                          "items": {
-                            "$ref": "#/components/schemas/Artist"
-                          }
-                        }
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/provider"
                       }
-                    },
-                    {
-                      "$ref": "#/components/schemas/PaginatedResource"
                     }
-                  ]
+                  },
+                  "required": ["data"]
                 }
               }
             }
@@ -143,6 +137,10 @@
         }
       }
     },
-    "schemas": {}
+    "schemas": {
+      "provider": {
+        "type": "object"
+      }
+    }
   }
 }

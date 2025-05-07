@@ -21,8 +21,6 @@ features:
     link: /wiki/vercel
 ---
 
----
-
 The aim of this wiki is to provide an overview of the project and provide functional reference for developers and configurators.
 
 [**XYZ**](https://github.com/GEOLYTIX/xyz/wiki/XYZ) is an API which can be deployed to any node runtime. The XYZ wiki page outlines the structure of API, its endpoints, node modules, and dependencies.
