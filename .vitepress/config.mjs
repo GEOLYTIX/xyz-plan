@@ -134,16 +134,16 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              text: 'API',
-              link: '/wiki/xyz/api/',
-              items: [
-                ...sidebar.generateSidebarGroups().map((group) => ({
-                  ...group,
-                  collapsed: true,
-                })),
-              ],
-            },
+            //{
+            //  text: 'API',
+            //  link: '/wiki/xyz/api/',
+            //  items: [
+            //    ...sidebar.generateSidebarGroups().map((group) => ({
+            //      ...group,
+            //      collapsed: true,
+            //    })),
+            //  ],
+            //},
           ],
         },
       ],
