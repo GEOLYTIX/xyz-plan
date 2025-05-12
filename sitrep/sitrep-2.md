@@ -28,13 +28,16 @@ layout: doc
 
 ## Simon
 
-| title                | status | planned | iteration | issue/pr                                             |
-| -------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Ping utility         | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
-| Gazetteer bug        | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
-| queryParams geom bug | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)   |
-| ping promise         | ✅     | No      | v4.14.1   | [#2106](https://github.com/GEOLYTIX/xyz/pull/2106)   |
-| Get Last Location    | ✅     | No      | v4.14.1   | [#2102](https://github.com/GEOLYTIX/xyz/pull/2102)   |
+| title                                           | status | planned | iteration | issue/pr                                             |
+| ----------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| Ping utility                                    | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
+| Gazetteer bug                                   | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
+| queryParams geom bug                            | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)   |
+| ping promise                                    | ✅     | No      | v4.14.1   | [#2106](https://github.com/GEOLYTIX/xyz/pull/2106)   |
+| Get Last Location                               | ✅     | No      | v4.14.1   | [#2102](https://github.com/GEOLYTIX/xyz/pull/2102)   |
+| Allow filtering of circle configuration options | 👀     | No      | v4.15.0   | [#2121](https://github.com/GEOLYTIX/xyz/issues/2121) |
+| Expose Dark Mode Theme                          | 👀     | No      | v4.15.0   | [#2125](https://github.com/GEOLYTIX/xyz/issues/2125) |
+| Type layer entry error                          | 👀     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123) |
 
 ## Alex
 
