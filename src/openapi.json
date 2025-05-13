@@ -3,20 +3,17 @@
   "info": {
     "title": "XYZ API",
     "description": "THE XYZ API",
-    "version": "4.12.1"
+    "version": "4.12.2"
   },
   "servers": [
     {
-      "url": "http:localhost:3000",
-      "description": "local server"
+      "url": "https://geolytix.dev/test",
+      "description": "Geolytix development server"
     }
   ],
   "security": [
     {
       "bearerAuth": []
-    },
-    {
-      "apiKeyHeader": []
     }
   ],
   "tags": [
@@ -52,7 +49,6 @@
         "summary": "Get from provider",
         "description": "Endpoint used to hit different providers",
         "operationId": "provider",
-        "security": [{}],
         "parameters": [
           {
             "$ref": "#/components/parameters/provider"
