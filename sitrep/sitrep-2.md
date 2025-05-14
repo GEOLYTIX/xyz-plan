@@ -17,18 +17,19 @@ layout: doc
 
 ## Dennis
 
-| title                                                           | status | planned | iteration | issue/pr                                             |
-| --------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Nested locales / Merging locales                                | ✅     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
-| entry with query hasRun; blocked query                          | ✅     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
-| Merge vector_layer entry method with layer entry method         | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
-| remove locale.layer merge from addlayer method                  | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
-| query with reserved viewport fails                              | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
-| The control panel should be scrollable/responsive               | ✅     | No      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
-| ACL Bug                                                         | ✅     | No      | v4.14.1   | [#2097](https://github.com/GEOLYTIX/xyz/issues/2097) |
-| Template Roles Restriction                                      | ✅     | No      | v4.15.0   | [#2111](https://github.com/GEOLYTIX/xyz/issues/2111) |
-| Return dropdown node without pills                              | ✅     | No      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
-| Putting the user into userIndexedDB [literally; no pun inteded] | ✅     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
+| title                                                            | status | planned | iteration | issue/pr                                             |
+| ---------------------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| Nested locales / Merging locales                                 | ✅     | Yes     | v4.15.0   | [#1922](https://github.com/GEOLYTIX/xyz/issues/1922) |
+| entry with query hasRun; blocked query                           | ✅     | Yes     | v4.14.1   | [#1348](https://github.com/GEOLYTIX/xyz/issues/1348) |
+| Merge vector_layer entry method with layer entry method          | ✅     | Yes     | v4.15.0   | [#2059](https://github.com/GEOLYTIX/xyz/pull/2059)   |
+| remove locale.layer merge from addlayer method                   | ✅     | Yes     | v4.14.1   | [#2029](https://github.com/GEOLYTIX/xyz/issues/2061) |
+| query with reserved viewport fails                               | ✅     | No      | v4.14.1   | [#2078](https://github.com/GEOLYTIX/xyz/issues/2078) |
+| The control panel should be scrollable/responsive                | ✅     | No      | v4.14.1   | [#2085](https://github.com/GEOLYTIX/xyz/issues/2085) |
+| ACL Bug                                                          | ✅     | No      | v4.14.1   | [#2097](https://github.com/GEOLYTIX/xyz/issues/2097) |
+| Template Roles Restriction                                       | ✅     | No      | v4.15.0   | [#2111](https://github.com/GEOLYTIX/xyz/issues/2111) |
+| Return dropdown node without pills                               | ✅     | No      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
+| Putting the user into userIndexedDB [literally; no pun inteded]  | ✅     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
+| Mapbox v12 street display with ol-mapbox-style 12.4, 12.5 & 12.6 | 👀     | No      | v4.14.3   | [#2110](https://github.com/GEOLYTIX/xyz/issues/2110) |
 
 ## Simon
 
