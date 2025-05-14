@@ -6,14 +6,13 @@ layout: doc
 
 ## Agata
 
-| title                                         | status | planned | iteration | issue/pr                                                   |
-| --------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------------- |
-| Histogram query                               | ✅     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949)       |
-| pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)         |
-| css for a button with material icon           | ✅     | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917)       |
-| Toast Element                                 | ✅     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036)       |
-| Dropdown element in scrollable container      | ⚪️     | Yes     | v4.14.3   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952)       |
-| Complete user settings plugin                 | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
+| title                                         | status                           | planned | iteration | issue/pr                                             |
+| --------------------------------------------- | -------------------------------- | ------- | --------- | ---------------------------------------------------- |
+| Histogram query                               | ✅                               | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
+| pill - inner close button always constrasting | ✅                               | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
+| css for a button with material icon           | ✅                               | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917) |
+| Toast Element                                 | ✅                               | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
+| Dropdown element in scrollable container      | 🟡(Needs to correct base branch) | Yes     | v4.14.3   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
 
 ## Dennis
 
@@ -35,16 +34,17 @@ layout: doc
 
 ## Simon
 
-| title                                           | status | planned | iteration | issue/pr                                             |
-| ----------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| Ping utility                                    | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968) |
-| Gazetteer bug                                   | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089) |
-| queryParams geom bug                            | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)   |
-| ping promise                                    | ✅     | No      | v4.14.1   | [#2106](https://github.com/GEOLYTIX/xyz/pull/2106)   |
-| Get Last Location                               | ✅     | No      | v4.14.1   | [#2102](https://github.com/GEOLYTIX/xyz/pull/2102)   |
-| Allow filtering of circle configuration options | ✅     | No      | v4.15.0   | [#2121](https://github.com/GEOLYTIX/xyz/issues/2121) |
-| Expose Dark Mode Theme                          | ✅     | No      | v4.15.0   | [#2125](https://github.com/GEOLYTIX/xyz/issues/2125) |
-| Type layer entry error                          | ✅     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123) |
+| title                                           | status | planned | iteration | issue/pr                                                   |
+| ----------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------------- |
+| Ping utility                                    | ✅     | Yes     | v4.15.0   | [#1968](https://github.com/GEOLYTIX/xyz/issues/1968)       |
+| Gazetteer bug                                   | ✅     | No      | v4.14.1   | [#2089](https://github.com/GEOLYTIX/xyz/issues/2089)       |
+| queryParams geom bug                            | ✅     | No      | v4.14.1   | [#2094](https://github.com/GEOLYTIX/xyz/pull/2094)         |
+| ping promise                                    | ✅     | No      | v4.14.1   | [#2106](https://github.com/GEOLYTIX/xyz/pull/2106)         |
+| Get Last Location                               | ✅     | No      | v4.14.1   | [#2102](https://github.com/GEOLYTIX/xyz/pull/2102)         |
+| Allow filtering of circle configuration options | ✅     | No      | v4.15.0   | [#2121](https://github.com/GEOLYTIX/xyz/issues/2121)       |
+| Expose Dark Mode Theme                          | ✅     | No      | v4.15.0   | [#2125](https://github.com/GEOLYTIX/xyz/issues/2125)       |
+| Type layer entry error                          | ✅     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123)       |
+| Complete user settings plugin                   | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
 
 ## Alex
 
