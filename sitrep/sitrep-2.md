@@ -30,6 +30,7 @@ layout: doc
 | Return dropdown node without pills                               | ✅     | No      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
 | Putting the user into userIndexedDB [literally; no pun inteded]  | ✅     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
 | Mapbox v12 street display with ol-mapbox-style 12.4, 12.5 & 12.6 | 👀     | No      | v4.14.3   | [#2110](https://github.com/GEOLYTIX/xyz/issues/2110) |
+| Bump maplibre and use import util | 🟡     | No      | v4.14.3   | [#2109](https://github.com/GEOLYTIX/xyz/issues/2109) |
 
 ## Simon
 
