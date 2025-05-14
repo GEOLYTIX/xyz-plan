@@ -28,7 +28,7 @@ layout: doc
 | ACL Bug                                                         | ✅     | No      | v4.14.1   | [#2097](https://github.com/GEOLYTIX/xyz/issues/2097) |
 | Template Roles Restriction                                      | ✅     | No      | v4.15.0   | [#2111](https://github.com/GEOLYTIX/xyz/issues/2111) |
 | Return dropdown node without pills                              | ✅     | No      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
-| Putting the user into userIndexedDB [literally; no pun inteded] | 👀     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
+| Putting the user into userIndexedDB [literally; no pun inteded] | ✅     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
 
 ## Simon
 
