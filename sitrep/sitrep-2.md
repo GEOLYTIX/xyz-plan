@@ -6,13 +6,12 @@ layout: doc
 
 ## Agata
 
-| title                                         | status                           | planned | iteration | issue/pr                                             |
-| --------------------------------------------- | -------------------------------- | ------- | --------- | ---------------------------------------------------- |
-| Histogram query                               | ✅                               | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
-| pill - inner close button always constrasting | ✅                               | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
-| css for a button with material icon           | ✅                               | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917) |
-| Toast Element                                 | ✅                               | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
-| Dropdown element in scrollable container      | 🟡(Needs to correct base branch) | Yes     | v4.14.3   | [#1952](https://github.com/GEOLYTIX/xyz/issues/1952) |
+| title                                         | status | planned | iteration | issue/pr                                             |
+| --------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
+| Histogram query                               | ✅     | Yes     | v4.15.0   | [#1949](https://github.com/GEOLYTIX/xyz/issues/1949) |
+| pill - inner close button always constrasting | ✅     | Yes     | v4.14.1   | [#2065](https://github.com/GEOLYTIX/xyz/pull/2065)   |
+| css for a button with material icon           | ✅     | Yes     | v4.15.0   | [#1917](https://github.com/GEOLYTIX/xyz/issues/1917) |
+| Toast Element                                 | ✅     | Yes     | v4.15.0   | [#2036](https://github.com/GEOLYTIX/xyz/issues/2036) |
 
 ## Dennis
 
@@ -51,7 +50,7 @@ layout: doc
 | title                                             | status | planned | iteration | issue/pr                                             |
 | ------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | layer view panel content without a drawer element | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
-| Dialogs and drawer elements                       | ⚪️     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
+| Dialogs and drawer elements                       | 👀     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 
 ## Rob
 
