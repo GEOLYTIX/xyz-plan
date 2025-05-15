@@ -46,6 +46,7 @@ layout: doc
 | Complete user settings plugin                   | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
 | userLocale Interface and Export                 | ⚪️     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135) |
 | locationForm: Allow Options Object              | ⚪️     | No      |           | [#400](https://github.com/GEOLYTIX/xyz_plugins/issues/400) |
+| categorized Thematic Missing nowrap            | ⚪️      | No      |  v4.14.4   | [#2136](https://github.com/GEOLYTIX/xyz/pull/2136) |
 
 ## Alex
 
