@@ -51,6 +51,7 @@ layout: doc
 | ------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
 | layer view panel content without a drawer element | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
 | Dialogs and drawer elements                       | 👀     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
+| QueryCheck not disabling checkbox when data returned is null | ⚪️     | No    | v4.14.3  | [#2132](https://github.com/GEOLYTIX/xyz/issues/2132) |
 
 ## Rob
 
