@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# April 22nd - May 16th
+# April 22nd - May 21st
 
 ## Agata
 
@@ -30,6 +30,7 @@ layout: doc
 | Mapbox v12 street display with ol-mapbox-style 12.4, 12.5 & 12.6 | ✅     | No      | v4.14.3   | [#2110](https://github.com/GEOLYTIX/xyz/issues/2110) |
 | Bump maplibre and use import util                                | ✅     | No      | v4.14.3   | [#2109](https://github.com/GEOLYTIX/xyz/issues/2109) |
 | Bump jsoneditor and use import util                              | ✅     | No      | v4.14.3   | [#2128](https://github.com/GEOLYTIX/xyz/issues/2128) |
+| Preserve zIndex on mapview                                       | 👀     | No      | v4.15.0   | [#2138](https://github.com/GEOLYTIX/xyz/issues/2138) |
 
 ## Simon
 
