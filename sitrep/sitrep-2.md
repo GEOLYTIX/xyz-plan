@@ -27,7 +27,7 @@ layout: doc
 | Template Roles Restriction                                       | ✅     | No      | v4.15.0   | [#2111](https://github.com/GEOLYTIX/xyz/issues/2111) |
 | Return dropdown node without pills                               | ✅     | No      | v4.14.3   | [#2116](https://github.com/GEOLYTIX/xyz/issues/2116) |
 | Putting the user into userIndexedDB [literally; no pun inteded]  | ✅     | No      | v4.15.0   | [#2113](https://github.com/GEOLYTIX/xyz/issues/2113) |
-| Mapbox v12 street display with ol-mapbox-style 12.4, 12.5 & 12.6 | 👀     | No      | v4.14.3   | [#2110](https://github.com/GEOLYTIX/xyz/issues/2110) |
+| Mapbox v12 street display with ol-mapbox-style 12.4, 12.5 & 12.6 | ✅     | No      | v4.14.3   | [#2110](https://github.com/GEOLYTIX/xyz/issues/2110) |
 | Bump maplibre and use import util                                | ✅     | No      | v4.14.3   | [#2109](https://github.com/GEOLYTIX/xyz/issues/2109) |
 | Bump jsoneditor and use import util                              | ✅     | No      | v4.14.3   | [#2128](https://github.com/GEOLYTIX/xyz/issues/2128) |
 
@@ -44,17 +44,17 @@ layout: doc
 | Expose Dark Mode Theme                          | ✅     | No      | v4.15.0   | [#2125](https://github.com/GEOLYTIX/xyz/issues/2125)       |
 | Type layer entry error                          | ✅     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123)       |
 | Complete user settings plugin                   | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
-| userLocale Interface and Export                 | ⚪️     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135) |
+| userLocale Interface and Export                 | ⚪️     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135)       |
 | locationForm: Allow Options Object              | ⚪️     | No      |           | [#400](https://github.com/GEOLYTIX/xyz_plugins/issues/400) |
-| categorized Thematic Missing nowrap            | ⚪️      | No      |  v4.14.4   | [#2136](https://github.com/GEOLYTIX/xyz/pull/2136) |
+| categorized Thematic Missing nowrap             | ⚪️     | No      | v4.14.4   | [#2136](https://github.com/GEOLYTIX/xyz/pull/2136)         |
 
 ## Alex
 
-| title                                             | status | planned | iteration | issue/pr                                             |
-| ------------------------------------------------- | ------ | ------- | --------- | ---------------------------------------------------- |
-| layer view panel content without a drawer element | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
-| Dialogs and drawer elements                       | 👀     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
-| QueryCheck not disabling checkbox when data returned is null | ⚪️     | No    | v4.14.3  | [#2132](https://github.com/GEOLYTIX/xyz/issues/2132) |
+| title                                                        | status | planned | iteration | issue/pr                                             |
+| ------------------------------------------------------------ | ------ | ------- | --------- | ---------------------------------------------------- |
+| layer view panel content without a drawer element            | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
+| Dialogs and drawer elements                                  | 👀     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
+| QueryCheck not disabling checkbox when data returned is null | ⚪️     | No      | v4.14.3   | [#2132](https://github.com/GEOLYTIX/xyz/issues/2132) |
 
 ## Rob
 
