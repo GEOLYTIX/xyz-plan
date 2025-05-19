@@ -46,8 +46,10 @@ layout: doc
 | Type layer entry error                          | ✅     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123)       |
 | Complete user settings plugin                   | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
 | userLocale Interface and Export                 | 👀     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135)       |
-| locationForm: Allow Options Object              | ⚪️     | No      |           | [#400](https://github.com/GEOLYTIX/xyz_plugins/issues/400) |
+| locationForm: Allow Options Object              | ✅     | No      |           | [#400](https://github.com/GEOLYTIX/xyz_plugins/issues/400) |
 | categorized Thematic Missing nowrap             | ✅     | No      | v4.14.4   | [#2136](https://github.com/GEOLYTIX/xyz/pull/2136)         |
+| Tabulator: remove unnessary save_edits reload   | 👀     | No      |           | [#404](https://github.com/GEOLYTIX/xyz_plugins/issues/404)         |
+|  Isoline GLX: minutesLkup                       | 👀     | No      |           | [#405](https://github.com/GEOLYTIX/xyz_plugins/issues/405)         |
 
 ## Alex
 
