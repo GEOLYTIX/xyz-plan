@@ -45,11 +45,11 @@ layout: doc
 | Expose Dark Mode Theme                          | ✅     | No      | v4.15.0   | [#2125](https://github.com/GEOLYTIX/xyz/issues/2125)       |
 | Type layer entry error                          | ✅     | No      | v4.15.0   | [#2123](https://github.com/GEOLYTIX/xyz/issues/2123)       |
 | Complete user settings plugin                   | ⚪️     | Yes     |           | [#281](https://github.com/GEOLYTIX/xyz_plugins/issues/281) |
-| userLocale Interface and Export                 | 👀     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135)       |
+| userLocale Interface and Export                 | ✅     | No      | v4.15.0   | [#2135](https://github.com/GEOLYTIX/xyz/issues/2135)       |
 | locationForm: Allow Options Object              | ✅     | No      |           | [#400](https://github.com/GEOLYTIX/xyz_plugins/issues/400) |
 | categorized Thematic Missing nowrap             | ✅     | No      | v4.14.4   | [#2136](https://github.com/GEOLYTIX/xyz/pull/2136)         |
-| Tabulator: remove unnessary save_edits reload   | 👀     | No      |           | [#404](https://github.com/GEOLYTIX/xyz_plugins/issues/404)         |
-|  Isoline GLX: minutesLkup                       | 👀     | No      |           | [#405](https://github.com/GEOLYTIX/xyz_plugins/issues/405)         |
+| Tabulator: remove unnessary save_edits reload   | 👀     | No      |           | [#404](https://github.com/GEOLYTIX/xyz_plugins/issues/404) |
+| Isoline GLX: minutesLkup                        | ❌     | No      |           | [#405](https://github.com/GEOLYTIX/xyz_plugins/issues/405) |
 
 ## Alex
 
@@ -57,7 +57,7 @@ layout: doc
 | ------------------------------------------------------------ | ------ | ------- | --------- | ---------------------------------------------------- |
 | layer view panel content without a drawer element            | ✅     | Yes     | v4.15.0   | [#1719](https://github.com/GEOLYTIX/xyz/issues/1719) |
 | Dialogs and drawer elements                                  | 👀     | Yes     | v4.15.0   | [#1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
-| QueryCheck not disabling checkbox when data returned is null | ⚪️     | No      | v4.14.3   | [#2132](https://github.com/GEOLYTIX/xyz/issues/2132) |
+| QueryCheck not disabling checkbox when data returned is null | ✅     | No      | v4.14.4   | [#2132](https://github.com/GEOLYTIX/xyz/issues/2132) |
 
 ## Rob
 
