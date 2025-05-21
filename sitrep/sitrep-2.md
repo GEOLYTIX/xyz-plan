@@ -69,7 +69,7 @@ layout: doc
 | workflow permissions                                  | ✅     | No      | v4.14.1   | [#2083](https://github.com/GEOLYTIX/xyz/issues/2083) |
 | express v5                                            | ✅     | No      | v4.14.1   | [#2084](https://github.com/GEOLYTIX/xyz/issues/2084) |
 | nodemailer with self signed certificate               | ✅     | No      | v4.14.2   | [#2086](https://github.com/GEOLYTIX/xyz/issues/2086) |
-| fix(maplibre): include compiled mapbox-gl-rtl-text.js | 👀     | No      | v4.15.0   | [#2148](https://github.com/GEOLYTIX/xyz/pull/2148)   |
+| fix(maplibre): include compiled mapbox-gl-rtl-text.js | ✅     | No      | v4.15.0   | [#2148](https://github.com/GEOLYTIX/xyz/pull/2148)   |
 
 ## Icebox
 
