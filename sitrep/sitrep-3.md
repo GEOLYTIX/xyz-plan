@@ -6,25 +6,25 @@ layout: doc
 
 ## Agata
 
-| title | status | planned | iteration | issue/pr | Tag |
-| ----- | ------ | ------- | --------- | -------- | --- |
+| title | status | planned | iteration | issue/pr | Label |
+| ----- | ------ | ------- | --------- | -------- | ----- |
 
 ## Dennis
 
-| title | status | planned | iteration | issue/pr | Tag |
-| ----- | ------ | ------- | --------- | -------- | --- |
+| title | status | planned | iteration | issue/pr | Label |
+| ----- | ------ | ------- | --------- | -------- | ----- |
 
 ## Simon
 
-| title | status | planned | iteration | issue/pr | Tag |
-| ----- | ------ | ------- | --------- | -------- | --- |
+| title | status | planned | iteration | issue/pr | Label |
+| ----- | ------ | ------- | --------- | -------- | ----- |
 
 ## Alex
 
-| title | status | planned | iteration | issue/pr | Tag |
-| ----- | ------ | ------- | --------- | -------- | --- |
+| title | status | planned | iteration | issue/pr | Label |
+| ----- | ------ | ------- | --------- | -------- | ----- |
 
 ## Rob
 
-| title | status | planned | iteration | issue/pr | Tag |
-| ----- | ------ | ------- | --------- | -------- | --- |
+| title | status | planned | iteration | issue/pr | Label |
+| ----- | ------ | ------- | --------- | -------- | ----- |
