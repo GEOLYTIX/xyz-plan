@@ -9,7 +9,8 @@ layout: doc
 | version | released?           |
 | ------- | ------------------- |
 | v4.15.1 | ⌛ (May 30th 2025)  |
-| v4.15.2 | ⏳ (??)             |
+| v4.15.2 | ⌛ (June 10th 2025)             |
+| v4.15.3 | ⏳ (??)             |
 | v4.16.0 | ⏳ (June 13th 2025) |
 
 ## Agata
@@ -17,15 +18,17 @@ layout: doc
 | title             | type       | status | planned | iteration | issue/pr                                            |
 | ----------------- | ---------- | ------ | ------- | --------- | --------------------------------------------------- |
 | Histogram Element | feature 🚀 | 👀     | yes     | v4.16.0   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
+| fix(vetor): Feature count returns when array is empty | bug 🐛  | 👀     | no     | v4.15.3   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
+| fix(select input): Select CSS | bug 🐛  | 👀     | no     | v4.15.3   | [2194](https://github.com/GEOLYTIX/xyz/pull/2198) |
 
 ## Dennis
 
 | title                                                                                  | type       | status | planned | iteration | issue/pr                                            |
 | -------------------------------------------------------------------------------------- | ---------- | ------ | ------- | --------- | --------------------------------------------------- |
 | #mapButton element for plugins                                                         | feature 🚀 | ✅     | yes     | v4.16.0   | [1460](https://github.com/GEOLYTIX/xyz/issues/1460) |
-| Roles Tree structure                                                                   | feature 🚀 | ⏳     | yes     | v4.16.0   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
+| feature(roles): Return roles.tree from workspace, support roles with dot separator. | feature 🚀 | ⏳     | yes     | v4.16.0   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
 | fix(layer): Apply zIndex to mapbox style layer                                         | bug 🐛     | ✅     | no      | v4.15.2   | [2167](https://github.com/GEOLYTIX/xyz/pull/2167)   |
-| fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | ⏳     | no      | v4.15.2   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
+| fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | ✅     | no      | v4.15.2   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
 | fix(header): Use flex grow in drawer header                                            | bug 🐛     | ✅     | no      | v4.15.1   | [2172](https://github.com/GEOLYTIX/xyz/issues/2172) |
 | fix(workspace.templates): Non cached file templates should not be merged on each fetch | bug 🐛     | ✅     | no      | v4.15.1   | [2180](https://github.com/GEOLYTIX/xyz/issues/2180) |
 
@@ -40,6 +43,9 @@ layout: doc
 | fix(dropdown)                                         | bug 🐛     | ✅     | no      | v4.15.1   | [2182](https://github.com/GEOLYTIX/xyz/pull/2182)   |
 | fix(csv_upload) correct schema                                         | bug 🐛     | ✅     | no      | v4.15.2| [2189](https://github.com/GEOLYTIX/xyz/pull/2189)   |
 | fix(layer entries) Remove style panel when no data | bug 🐛     |  ⏳    | no      | v4.15.2| [2191](https://github.com/GEOLYTIX/xyz/pull/2191)   |
+| fix(plugins): Missing data-ids | bug 🐛     |  ⏳    | no      | v4.15.3| [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
+| Dictionaries From Public | feature 🚀     |  ✍️ (Draft)    | no      | v4.16.0| [2179](https://github.com/GEOLYTIX/xyz/pull/2179)   |
+
 
 ## Alex
 
