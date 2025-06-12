@@ -61,8 +61,8 @@ layout: doc
 
 | title                                    | type     | status | planned | iteration | issue/pr                                            |
 | ---------------------------------------- | -------- | ------ | ------- | --------- | --------------------------------------------------- |
-| Switch to pnpm for Dependency Management | DevEx 🖥️ | ⏳     | yes     | v4.15.2   | [2076](https://github.com/GEOLYTIX/xyz/issues/2076) |
-| Biome Linting v2                         | DevEx 🖥️ | ⏳     | yes     | v4.15.2   | [2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
+| Switch to pnpm for Dependency Management | DevEx 🖥️ | ⏳     | yes     | v4.15.3   | [2076](https://github.com/GEOLYTIX/xyz/issues/2076) |
+| Biome Linting v2                         | DevEx 🖥️ | ⏳     | yes     | v4.15.3   | [2062](https://github.com/GEOLYTIX/xyz/issues/2062) |
 
 ## Ice Bucket 🧊
 
