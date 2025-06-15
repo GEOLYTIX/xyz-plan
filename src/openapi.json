@@ -2,8 +2,12 @@
   "openapi": "3.1.0",
   "info": {
     "title": "XYZ API",
-    "description": "THE XYZ API",
-    "version": "4.12.2"
+    "description": "THE XYZ API - A comprehensive geospatial data management and visualization platform",
+    "version": "4.12.2",
+    "contact": {
+      "name": "GEOLYTIX",
+      "url": "https://geolytix.co.uk"
+    }
   },
   "servers": [
     {
@@ -14,32 +18,39 @@
   "security": [
     {
       "bearerAuth": []
+    },
+    {
+      "cookieAuth": []
     }
   ],
   "tags": [
     {
       "name": "provider",
-      "description": "The provider endpoint"
+      "description": "Third-party service provider operations"
     },
     {
       "name": "query",
-      "description": "The query endpoint"
+      "description": "SQL query execution and data retrieval"
     },
     {
       "name": "sign",
-      "description": "The sign endpoint"
+      "description": "Request signing for external services"
     },
     {
       "name": "user",
-      "description": "The user endpoint"
+      "description": "User authentication and management"
     },
     {
       "name": "view",
-      "description": "The view endpoint"
+      "description": "HTML view rendering"
     },
     {
       "name": "workspace",
-      "description": "The workspace endpoint"
+      "description": "Workspace configuration and metadata"
+    },
+    {
+      "name": "saml",
+      "description": "SAML authentication endpoints"
     }
   ],
   "paths": {
@@ -47,32 +58,628 @@
       "get": {
         "tags": ["provider"],
         "summary": "Get from provider",
-        "description": "Endpoint used to hit different providers",
+        "description": "Endpoint used to hit different providers (cloudfront, file, s3)",
         "operationId": "provider",
         "parameters": [
           {
             "$ref": "#/components/parameters/provider"
+          },
+          {
+            "name": "url",
+            "in": "query",
+            "description": "Resource URL to fetch",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "content_type",
+            "in": "query",
+            "description": "Content type for response",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK",
+            "description": "Provider response",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "properties": {
-                    "data": {
-                      "type": "array",
-                      "items": {
-                        "$ref": "#/components/schemas/provider"
-                      }
-                    }
-                  },
-                  "required": ["data"]
+                  "type": "object"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
                 }
               }
             }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "405": {
+            "description": "Provider not configured"
+          }
+        }
+      }
+    },
+    "/api/sign": {
+      "get": {
+        "tags": ["sign"],
+        "summary": "Sign request",
+        "description": "Sign requests for external services (cloudfront, cloudinary, s3)",
+        "operationId": "sign",
+        "parameters": [
+          {
+            "name": "signer",
+            "in": "query",
+            "description": "Signer module to use",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": ["cloudfront", "cloudinary", "s3"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Signed URL or response",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "405": {
+            "description": "Signer not configured"
+          },
+          "500": {
+            "description": "Signing failed"
+          }
+        }
+      }
+    },
+    "/api/query": {
+      "get": {
+        "tags": ["query"],
+        "summary": "Execute query",
+        "description": "Execute SQL queries using predefined templates",
+        "operationId": "query",
+        "parameters": [
+          {
+            "name": "template",
+            "in": "query",
+            "description": "Query template name",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "cluster",
+                "cluster_hex",
+                "distinct_values",
+                "field_stats",
+                "geojson",
+                "location_get",
+                "location_count",
+                "mvt",
+                "wkt"
+              ]
+            }
+          },
+          {
+            "name": "locale",
+            "in": "query",
+            "description": "Locale identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "layer",
+            "in": "query",
+            "description": "Layer identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Record ID for location queries",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filter",
+            "in": "query",
+            "description": "JSON filter object",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "viewport",
+            "in": "query",
+            "description": "Viewport bounds (minX,minY,maxX,maxY,srid)",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Query results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    {
+                      "type": "object"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          },
+          "500": {
+            "description": "Query execution failed"
+          }
+        }
+      },
+      "post": {
+        "tags": ["query"],
+        "summary": "Execute query with body",
+        "description": "Execute SQL queries with request body data",
+        "operationId": "queryPost",
+        "parameters": [
+          {
+            "name": "template",
+            "in": "query",
+            "description": "Query template name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Query data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Query results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          }
+        }
+      }
+    },
+    "/api/user/{method}": {
+      "get": {
+        "tags": ["user"],
+        "summary": "User operations",
+        "description": "Various user management operations",
+        "operationId": "userGet",
+        "parameters": [
+          {
+            "name": "method",
+            "in": "path",
+            "required": true,
+            "description": "User operation method",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "admin",
+                "cookie", 
+                "key",
+                "list",
+                "log",
+                "login",
+                "register",
+                "token"
+              ]
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "description": "User email address",
+            "schema": {
+              "type": "string",
+              "format": "email"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          }
+        }
+      },
+      "post": {
+        "tags": ["user"],
+        "summary": "User operations with data",
+        "description": "User operations that require request body data",
+        "operationId": "userPost",
+        "parameters": [
+          {
+            "name": "method",
+            "in": "path",
+            "required": true,
+            "description": "User operation method",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "add",
+                "delete",
+                "login",
+                "register",
+                "update",
+                "verify"
+              ]
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "User data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "format": "email"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "language": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Operation successful"
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/api/user/verify/{token}": {
+      "get": {
+        "tags": ["user"],
+        "summary": "Verify user account",
+        "description": "Verify user account with verification token",
+        "operationId": "userVerify",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "required": true,
+            "description": "Verification token",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "Language preference",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Account verified successfully"
+          },
+          "302": {
+            "description": "Redirect to login"
+          },
+          "500": {
+            "description": "Verification failed"
+          }
+        }
+      }
+    },
+    "/api/workspace/{key}": {
+      "get": {
+        "tags": ["workspace"],
+        "summary": "Get workspace data",
+        "description": "Retrieve workspace configuration and metadata",
+        "operationId": "workspace",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "path",
+            "required": true,
+            "description": "Workspace data type",
+            "schema": {
+              "type": "string",
+              "enum": ["layer", "locale", "locales", "roles", "test"]
+            }
+          },
+          {
+            "name": "locale",
+            "in": "query",
+            "description": "Locale identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "layer",
+            "in": "query",
+            "description": "Layer identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "layers",
+            "in": "query",
+            "description": "Include layer objects",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "detail",
+            "in": "query",
+            "description": "Include detailed role information",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Workspace data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "description": "Layer or locale object"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      },
+                      "description": "Array of locales or roles"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "403": {
+            "$ref": "#/components/responses/Forbidden"
+          },
+          "500": {
+            "description": "Failed to load workspace"
+          }
+        }
+      }
+    },
+    "/saml/metadata": {
+      "get": {
+        "tags": ["saml"],
+        "summary": "SAML metadata",
+        "description": "Get SAML Service Provider metadata",
+        "operationId": "samlMetadata",
+        "responses": {
+          "200": {
+            "description": "SAML metadata XML",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "SAML not configured"
+          }
+        }
+      }
+    },
+    "/saml/login": {
+      "get": {
+        "tags": ["saml"],
+        "summary": "SAML login",
+        "description": "Initiate SAML authentication flow",
+        "operationId": "samlLogin",
+        "responses": {
+          "302": {
+            "description": "Redirect to Identity Provider"
+          },
+          "500": {
+            "description": "Authentication failed"
+          }
+        }
+      }
+    },
+    "/saml/acs": {
+      "post": {
+        "tags": ["saml"],
+        "summary": "SAML Assertion Consumer Service",
+        "description": "Handle SAML response from Identity Provider",
+        "operationId": "samlAcs",
+        "requestBody": {
+          "description": "SAML response",
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "SAMLResponse": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "302": {
+            "description": "Redirect after successful authentication"
+          },
+          "401": {
+            "description": "Authentication failed"
+          }
+        }
+      }
+    },
+    "/saml/logout": {
+      "get": {
+        "tags": ["saml"],
+        "summary": "SAML logout",
+        "description": "Initiate SAML logout flow",
+        "operationId": "samlLogout",
+        "responses": {
+          "302": {
+            "description": "Redirect for logout"
+          }
+        }
+      }
+    },
+    "/saml/logout/callback": {
+      "post": {
+        "tags": ["saml"],
+        "summary": "SAML logout callback",
+        "description": "Handle SAML logout response",
+        "operationId": "samlLogoutCallback",
+        "responses": {
+          "302": {
+            "description": "Redirect after logout"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": ["view"],
+        "summary": "Default view",
+        "description": "Serve HTML views and application interface",
+        "operationId": "view",
+        "parameters": [
+          {
+            "name": "template",
+            "in": "query",
+            "description": "View template name",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "Language preference",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z]{2}$"
+            }
+          },
+          {
+            "name": "msg",
+            "in": "query",
+            "description": "Message to display",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "HTML view",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
           }
         }
       }
@@ -82,7 +689,14 @@
     "securitySchemes": {
       "bearerAuth": {
         "type": "http",
-        "scheme": "bearer"
+        "scheme": "bearer",
+        "description": "JWT token authentication"
+      },
+      "cookieAuth": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "xyz_session",
+        "description": "Session cookie authentication"
       },
       "apiKeyHeader": {
         "type": "apiKey",
@@ -94,10 +708,11 @@
       "provider": {
         "name": "provider",
         "in": "query",
-        "description": "provider name",
+        "description": "Provider name",
         "required": true,
         "schema": {
-          "type": "string"
+          "type": "string",
+          "enum": ["cloudfront", "file", "s3"]
         }
       }
     },
@@ -123,7 +738,7 @@
         }
       },
       "NotFound": {
-        "description": "NotFound",
+        "description": "Not Found",
         "content": {
           "application/json": {
             "schema": {
@@ -134,8 +749,104 @@
       }
     },
     "schemas": {
-      "provider": {
-        "type": "object"
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": ["message"]
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "admin": {
+            "type": "boolean"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "language": {
+            "type": "string"
+          },
+          "verified": {
+            "type": "boolean"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        }
+      },
+      "Layer": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "table": {
+            "type": "string"
+          },
+          "qID": {
+            "type": "string"
+          },
+          "geom": {
+            "type": "string"
+          },
+          "srid": {
+            "type": "integer"
+          },
+          "infoj": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "Locale": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "layers": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Layer"
+            }
+          },
+          "dbs": {
+            "type": "string"
+          }
+        }
+      },
+      "QueryResult": {
+        "type": "object",
+        "properties": {
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
       }
     }
   }
