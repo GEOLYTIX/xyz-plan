@@ -31,20 +31,24 @@ layout: doc
 | fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | ✅     | no      | v4.15.2   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
 | fix(header): Use flex grow in drawer header                                            | bug 🐛     | ✅     | no      | v4.15.1   | [2172](https://github.com/GEOLYTIX/xyz/issues/2172) |
 | fix(workspace.templates): Non cached file templates should not be merged on each fetch | bug 🐛     | ✅     | no      | v4.15.1   | [2180](https://github.com/GEOLYTIX/xyz/issues/2180) |
+| feat(util): scriptElement utils module and mapboxStyle format                          | bug 🐛     | 👀     | no      | v4.15.3   | [2187](https://github.com/GEOLYTIX/xyz/issues/2187) |
+| fix(vector): Cluster source change event method fails with empty features              | bug 🐛     | 👀     | no      | v4.15.3   | [2195](https://github.com/GEOLYTIX/xyz/issues/2195) |
+| fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | 👀     | no      | v4.15.3   | [2173](https://github.com/GEOLYTIX/xyz/issues/2173) |
 
 ## Simon
 
-| title                                                 | type       | status     | planned | iteration | issue/pr                                            |
-| ----------------------------------------------------- | ---------- | ---------- | ------- | --------- | --------------------------------------------------- |
-| Ability to Control Display of HelpDialog              | feature 🚀 | ⏳         | yes     | v4.16.0   | [1854](https://github.com/GEOLYTIX/xyz/issues/1854) |
-| fix(locale.layer): must not be deleted                | bug 🐛     | ✅         | no      | v4.15.1   | [2171](https://github.com/GEOLYTIX/xyz/pull/2171)   |
-| fix(infoj): Warning if both assign and merge provided | bug 🐛     | ✅         | no      | v4.15.1   | [2177](https://github.com/GEOLYTIX/xyz/pull/2177)   |
-| fix(userLocale): Encode userLocale Name               | bug 🐛     | ✅         | no      | v4.15.1   | [2168](https://github.com/GEOLYTIX/xyz/pull/2168)   |
-| fix(dropdown)                                         | bug 🐛     | ✅         | no      | v4.15.1   | [2182](https://github.com/GEOLYTIX/xyz/pull/2182)   |
-| fix(csv_upload) correct schema                        | bug 🐛     | ✅         | no      | v4.15.2   | [2189](https://github.com/GEOLYTIX/xyz/pull/2189)   |
-| fix(layer entries) Remove style panel when no data    | bug 🐛     | ⏳         | no      | v4.15.2   | [2191](https://github.com/GEOLYTIX/xyz/pull/2191)   |
-| fix(plugins): Missing data-ids                        | bug 🐛     | ⏳         | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
-| Dictionaries From Public                              | feature 🚀 | ✍️ (Draft) | no      | v4.16.0   | [2179](https://github.com/GEOLYTIX/xyz/pull/2179)   |
+| title                                                                            | type       | status     | planned | iteration | issue/pr                                            |
+| -------------------------------------------------------------------------------- | ---------- | ---------- | ------- | --------- | --------------------------------------------------- |
+| Ability to Control Display of HelpDialog                                         | feature 🚀 | ⏳         | yes     | v4.16.0   | [1854](https://github.com/GEOLYTIX/xyz/issues/1854) |
+| fix(locale.layer): must not be deleted                                           | bug 🐛     | ✅         | no      | v4.15.1   | [2171](https://github.com/GEOLYTIX/xyz/pull/2171)   |
+| fix(infoj): Warning if both assign and merge provided                            | bug 🐛     | ✅         | no      | v4.15.1   | [2177](https://github.com/GEOLYTIX/xyz/pull/2177)   |
+| fix(userLocale): Encode userLocale Name                                          | bug 🐛     | ✅         | no      | v4.15.1   | [2168](https://github.com/GEOLYTIX/xyz/pull/2168)   |
+| fix(dropdown)                                                                    | bug 🐛     | ✅         | no      | v4.15.1   | [2182](https://github.com/GEOLYTIX/xyz/pull/2182)   |
+| fix(csv_upload) correct schema                                                   | bug 🐛     | ✅         | no      | v4.15.2   | [2189](https://github.com/GEOLYTIX/xyz/pull/2189)   |
+| fix(layer entries) Remove style panel when no data                               | bug 🐛     | ⏳         | no      | v4.15.2   | [2191](https://github.com/GEOLYTIX/xyz/pull/2191)   |
+| fix(plugins): Missing data-ids                                                   | bug 🐛     | ⏳         | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
+| Dictionaries From Public                                                         | feature 🚀 | ✍️ (Draft) | no      | v4.16.0   | [2179](https://github.com/GEOLYTIX/xyz/pull/2179)   |
+| fix(layer.entries) - Queryparams from layer and locale must be assigned to entry | bug 🐛     | 👀         | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
 
 ## Alex
 
