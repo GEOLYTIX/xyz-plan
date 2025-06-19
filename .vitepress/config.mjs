@@ -57,14 +57,12 @@ export default defineConfig({
         ],
       },
       {
-        text: 'v4.14.2',
+        text: 'v4.15.3',
         items: [
+          { text: 'v4.15.3', link: '/release/v4.15.3' },
           { text: 'v4.14.2', link: '/release/v4.14.2' },
           { text: 'v4.14.1', link: '/release/v4.14.1' },
           { text: 'v4.14.0', link: '/release/v4.14.0' },
-          { text: 'v4.13.2', link: '/release/v4.13.2' },
-          { text: 'v4.13.1', link: '/release/v4.13.1' },
-          { text: 'v4.13.0', link: '/release/v4.13.0' },
         ],
       },
     ],
@@ -135,14 +133,14 @@ export default defineConfig({
               ],
             },
             {
-             text: 'API',
-             link: '/wiki/xyz/api/',
-             items: [
-               ...sidebar.generateSidebarGroups().map((group) => ({
-                 ...group,
-                 collapsed: true,
-               })),
-             ],
+              text: 'API',
+              link: '/wiki/xyz/api/',
+              items: [
+                ...sidebar.generateSidebarGroups().map((group) => ({
+                  ...group,
+                  collapsed: true,
+                })),
+              ],
             },
           ],
         },
