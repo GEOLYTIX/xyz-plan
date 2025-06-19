@@ -31,7 +31,7 @@ layout: doc
 | fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | ✅     | no      | v4.15.2   | [2099](https://github.com/GEOLYTIX/xyz/issues/2099) |
 | fix(header): Use flex grow in drawer header                                            | bug 🐛     | ✅     | no      | v4.15.1   | [2172](https://github.com/GEOLYTIX/xyz/issues/2172) |
 | fix(workspace.templates): Non cached file templates should not be merged on each fetch | bug 🐛     | ✅     | no      | v4.15.1   | [2180](https://github.com/GEOLYTIX/xyz/issues/2180) |
-| feat(util): scriptElement utils module and mapboxStyle format                          | bug 🐛     | 👀     | no      | v4.15.3   | [2187](https://github.com/GEOLYTIX/xyz/issues/2187) |
+| feat(util): scriptElement utils module and mapboxStyle format                          | bug 🐛     | ✅     | no      | v4.15.3   | [2187](https://github.com/GEOLYTIX/xyz/issues/2187) |
 | fix(vector): Cluster source change event method fails with empty features              | bug 🐛     | ✅     | no      | v4.15.3   | [2195](https://github.com/GEOLYTIX/xyz/issues/2195) |
 | fix(legendIcon): Clean up Openlayers Icon Style creation                               | bug 🐛     | ✅     | no      | v4.15.3   | [2173](https://github.com/GEOLYTIX/xyz/issues/2173) |
 | fix(entry.geometry): Disable geometry entry if api method fails to assign a value.     | bug 🐛     | ✅     | no      | v4.15.3   | [2207](https://github.com/GEOLYTIX/xyz/issues/2207) |
