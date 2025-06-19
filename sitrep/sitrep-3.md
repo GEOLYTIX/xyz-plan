@@ -18,7 +18,7 @@ layout: doc
 | title                                                 | type       | status | planned | iteration | issue/pr                                            |
 | ----------------------------------------------------- | ---------- | ------ | ------- | --------- | --------------------------------------------------- |
 | Histogram Element                                     | feature 🚀 | 👀     | yes     | v4.16.0   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
-| fix(vetor): Feature count returns when array is empty | bug 🐛     | 👀     | no      | v4.15.3   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
+| fix(vetor): Feature count returns when array is empty | bug 🐛     | ❌     | no      | v4.15.3   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
 | fix(select input): Select CSS                         | bug 🐛     | ✅     | no      | v4.15.3   | [2194](https://github.com/GEOLYTIX/xyz/pull/2198)   |
 
 ## Dennis
@@ -58,7 +58,7 @@ layout: doc
 | Dialogs and drawer elements                                         | feature 🚀 | ✅     | yes     | v4.16.0   | [1993](https://github.com/GEOLYTIX/xyz/issues/1993) |
 | Opening a dialog which doesn't fit into the mapview container       | bug 🐛     | ✅     | yes     | v4.15.1   | [2144](https://github.com/GEOLYTIX/xyz/issues/2144) |
 | fix(dropdown): Close dropdown in intersection observer event method | bug 🐛     | ✅     | yes     | v4.15.1   | [2131](https://github.com/GEOLYTIX/xyz/issues/2131) |
-| layer.zoomToExtent method test and documentation                    | feature 🚀 | ⏳     | yes     | v4.16.0   | [1473](https://github.com/GEOLYTIX/xyz/issues/1473) |
+| layer.zoomToExtent method test and documentation                    | feature 🚀 | 👀     | yes     | v4.16.0   | [1473](https://github.com/GEOLYTIX/xyz/issues/1473) |
 | location.flyTo extents, tests, and documentation                    | RFC ♻️     | ⏳     | yes     | v4.16.0   | [1469](https://github.com/GEOLYTIX/xyz/issues/1469) |
 
 ## Rob
