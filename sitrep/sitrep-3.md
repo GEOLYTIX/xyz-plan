@@ -47,8 +47,8 @@ layout: doc
 | fix(userLocale): Encode userLocale Name                                          | bug 🐛     | ✅     | no      | v4.15.1   | [2168](https://github.com/GEOLYTIX/xyz/pull/2168)   |
 | fix(dropdown)                                                                    | bug 🐛     | ✅     | no      | v4.15.1   | [2182](https://github.com/GEOLYTIX/xyz/pull/2182)   |
 | fix(csv_upload) correct schema                                                   | bug 🐛     | ✅     | no      | v4.15.2   | [2189](https://github.com/GEOLYTIX/xyz/pull/2189)   |
-| fix(layer entries) Remove style panel when no data                               | bug 🐛     | ⏳     | no      | v4.15.2   | [2191](https://github.com/GEOLYTIX/xyz/pull/2191)   |
-| fix(plugins): Missing data-ids                                                   | bug 🐛     | ⏳     | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
+| fix(layer entries) Remove style panel when no data                               | bug 🐛     | ✅     | no      | v4.15.2   | [2191](https://github.com/GEOLYTIX/xyz/pull/2191)   |
+| fix(plugins): Missing data-ids                                                   | bug 🐛     | ✅     | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
 | fix(layer.entries) - Queryparams from layer and locale must be assigned to entry | bug 🐛     | ✅     | no      | v4.15.3   | [2198](https://github.com/GEOLYTIX/xyz/pull/2198)   |
 
 ## Alex
