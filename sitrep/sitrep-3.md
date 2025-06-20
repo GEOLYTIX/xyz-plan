@@ -11,7 +11,7 @@ layout: doc
 | v4.15.1 | ⌛ (May 30th 2025)  |
 | v4.15.2 | ⌛ (June 10th 2025) |
 | v4.15.3 | ⏳ (June 19th 2025) |
-| v4.16.0 | ⏳ (June 20th 2025) |
+| v4.16.0 | ⏳ (June 27th 2025) |
 
 ## Agata
 
