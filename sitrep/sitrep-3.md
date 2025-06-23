@@ -17,7 +17,7 @@ layout: doc
 
 | title                                                 | type       | status | planned | iteration | issue/pr                                            |
 | ----------------------------------------------------- | ---------- | ------ | ------- | --------- | --------------------------------------------------- |
-| Histogram Element                                     | feature 🚀 | 👀     | yes     | v4.16.0   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
+| Histogram Element                                     | feature 🚀 | ✅     | yes     | v4.16.0   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
 | fix(vetor): Feature count returns when array is empty | bug 🐛     | ❌     | no      | v4.15.3   | [2098](https://github.com/GEOLYTIX/xyz/issues/2098) |
 | fix(select input): Select CSS                         | bug 🐛     | ✅     | no      | v4.15.3   | [2194](https://github.com/GEOLYTIX/xyz/pull/2198)   |
 
