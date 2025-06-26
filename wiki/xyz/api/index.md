@@ -1,5 +1,6 @@
 ---
 layout: doc
+outline: [2, 4]
 ---
 
 # API
