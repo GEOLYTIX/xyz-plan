@@ -11,8 +11,8 @@
   },
   "servers": [
     {
-      "url": "https://geolytix.dev/test",
-      "description": "Geolytix development server"
+      "url": "https://geolytixmapp.com/example",
+      "description": "Geolytix example"
     }
   ],
   "security": [
@@ -171,11 +171,32 @@
                 "cluster",
                 "cluster_hex",
                 "distinct_values",
+                "distinct_values_json",
+                "field_max",
+                "field_min",
+                "field_minmax",
                 "field_stats",
+                "gaz_query",
                 "geojson",
-                "location_get",
+                "get_nnearest",
+                "get_random_location",
+                "histogram",
+                "infotip",
+                "layer_extent",
                 "location_count",
+                "location_delete",
+                "location_field_value",
+                "location_get",
+                "location_new",
+                "location_update",
+                "locations_delete",
                 "mvt",
+                "mvt_geom",
+                "sql_table_insert",
+                "st_distance_ab",
+                "st_distance_ab_multiple",
+                "st_intersects_ab",
+                "st_intersects_count",
                 "wkt"
               ]
             }
@@ -216,6 +237,38 @@
             "name": "viewport",
             "in": "query",
             "description": "Viewport bounds (minX,minY,maxX,maxY,srid)",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "qID",
+            "in": "query",
+            "description": "Query ID field name",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "srid",
+            "in": "query",
+            "description": "Spatial reference system identifier",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "geom",
+            "in": "query",
+            "description": "Geometry field name",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "table",
+            "in": "query",
+            "description": "Database table name",
             "schema": {
               "type": "string"
             }
@@ -267,6 +320,30 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "locale",
+            "in": "query",
+            "description": "Locale identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "layer",
+            "in": "query",
+            "description": "Layer identifier",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "stringifyBody",
+            "in": "query",
+            "description": "Whether to stringify the request body for substitution",
+            "schema": {
+              "type": "boolean"
+            }
           }
         ],
         "requestBody": {
@@ -312,7 +389,7 @@
               "type": "string",
               "enum": [
                 "admin",
-                "cookie", 
+                "cookie",
                 "key",
                 "list",
                 "log",
@@ -353,6 +430,9 @@
           },
           "403": {
             "$ref": "#/components/responses/Forbidden"
+          },
+          "429": {
+            "description": "Too many requests - address temporarily locked"
           }
         }
       },
@@ -369,14 +449,7 @@
             "description": "User operation method",
             "schema": {
               "type": "string",
-              "enum": [
-                "add",
-                "delete",
-                "login",
-                "register",
-                "update",
-                "verify"
-              ]
+              "enum": ["add", "delete", "login", "register", "update", "verify"]
             }
           }
         ],
@@ -411,6 +484,9 @@
           },
           "401": {
             "description": "Unauthorized"
+          },
+          "429": {
+            "description": "Too many requests - address temporarily locked"
           }
         }
       }
@@ -665,6 +741,30 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "logout",
+            "in": "query",
+            "description": "Logout flag to destroy session",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "login",
+            "in": "query",
+            "description": "Login flag to show login form",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "register",
+            "in": "query",
+            "description": "Register flag to show registration form",
+            "schema": {
+              "type": "boolean"
+            }
           }
         ],
         "responses": {
@@ -677,6 +777,9 @@
                 }
               }
             }
+          },
+          "302": {
+            "description": "Redirect response"
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
@@ -695,8 +798,8 @@
       "cookieAuth": {
         "type": "apiKey",
         "in": "cookie",
-        "name": "xyz_session",
-        "description": "Session cookie authentication"
+        "name": "dynamic_cookie_name",
+        "description": "Session cookie authentication. Cookie name is set by xyzEnv.TITLE environment variable."
       },
       "apiKeyHeader": {
         "type": "apiKey",
@@ -851,3 +954,4 @@
     }
   }
 }
+
