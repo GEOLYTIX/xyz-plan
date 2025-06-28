@@ -12,7 +12,7 @@
     "github:sync": "node scripts/github-sync-json.js sync",
     "github:update": "node scripts/github-sync-json.js update",
     "github:report": "node scripts/github-sync-json.js report",
-    "github:full": "node scripts/github-sync-json.js full",
+    "github:full": "node scripts/github-sync-json.js full"
   },
   "keywords": [
     "planning",
