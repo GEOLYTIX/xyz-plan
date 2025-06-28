@@ -119,6 +119,8 @@ class SitRepGenerator {
       meta: {
         title: data.meta?.title || 'SitRep',
         dateRange: data.meta?.dateRange || 'TBD',
+        startDate: new Date(data.meta.startDate),
+        endDate: new Date(data.meta.endDate),
         created: data.meta?.created || new Date().toISOString(),
         updated: new Date().toISOString(),
       },

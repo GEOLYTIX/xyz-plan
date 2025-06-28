@@ -36,9 +36,7 @@ class GitHubSyncJson extends SitRepGenerator {
   }
 
   // Get assigned issues and PRs for team members
-  async fetchAssignedItems() {
-    const startDate = new Date('2025-05-22');
-    const endDate = new Date('2025-06-27');
+  async fetchAssignedItems(startDate, endDate) {
     const assignments = {};
 
     let prs = await this.octokit.rest.pulls.list({
@@ -50,7 +48,11 @@ class GitHubSyncJson extends SitRepGenerator {
       direction: 'desc',
     });
 
-    prs = prs.data.filter((pr) => new Date(pr.created_at) >= startDate);
+    prs = prs.data.filter(
+      (pr) =>
+        new Date(pr.created_at) >= startDate &&
+        new Date(pr.created_at) <= endDate,
+    );
 
     for (const [teamName, githubUsername] of Object.entries(this.teamMembers)) {
       console.log(
@@ -150,8 +152,6 @@ class GitHubSyncJson extends SitRepGenerator {
         pull_number: number,
       });
 
-      console.log(number);
-
       const targetBranch = pr.data.base.ref;
       const data = this.loadSitrepData();
 
@@ -174,8 +174,12 @@ class GitHubSyncJson extends SitRepGenerator {
   async syncAssignments() {
     console.log('🔄 Syncing GitHub assignments...\n');
 
-    const assignments = await this.fetchAssignedItems();
     const data = this.loadSitrepData();
+
+    const assignments = await this.fetchAssignedItems(
+      data.meta.startDate,
+      data.meta.endDate,
+    );
 
     let totalAdded = 0;
     let totalUpdated = 0;
@@ -270,8 +274,12 @@ class GitHubSyncJson extends SitRepGenerator {
   async generateReport() {
     console.log('📊 Generating GitHub sync report...\n');
 
-    const assignments = await this.fetchAssignedItems();
     const data = this.loadSitrepData();
+
+    const assignments = await this.fetchAssignedItems(
+      data.meta.startDate,
+      data.meta.endDate,
+    );
 
     console.log(`📈 GitHub Assignment Report`);
     console.log(`================================`);
