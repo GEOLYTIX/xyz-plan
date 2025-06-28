@@ -165,7 +165,7 @@ export default defineConfig({
         {
           text: 'Sitrep',
           items: [
-            { text: 'May 22nd - June 13th', link: '/sitrep/sitrep-3' },
+            { text: 'May 22nd - June 27th', link: '/sitrep/sitrep-3' },
             { text: 'April 22nd - May 21st', link: '/sitrep/sitrep-2' },
             { text: 'March 24th - April 17th', link: '/sitrep/sitrep-1' },
           ],

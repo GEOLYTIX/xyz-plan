@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "title": "May 22nd - June 27th",
+    "dateRange": "May 22nd - June 27th",
+    "created": "2025-06-26T15:56:18.270Z",
+    "updated": "2025-06-28T08:58:36.052Z"
+  },
+  "iterations": [
+    {
+      "version": "v4.15.1",
+      "type": "patch",
+      "status": "done",
+      "date": "2025-05-30"
+    },
+    {
+      "version": "v4.15.2",
+      "type": "patch",
+      "status": "done",
+      "date": "2025-06-10"
+    },
+    {
+      "version": "v4.15.3",
+      "type": "patch",
+      "status": "done",
+      "date": "2025-06-19"
+    },
+    {
+      "version": "v4.15.4",
+      "type": "patch",
+      "status": "in_progress",
+      "date": "2025-06-27"
+    },
+    {
+      "version": "v4.16.0",
+      "type": "minor",
+      "status": "in_progress",
+      "date": "2025-06-27"
+    }
+  ],
+  "teams": {
+    "Agata": [
+      {
+        "title": "Slider with histogram",
+        "type": "feature",
+        "status": "in_review",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2232,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2232"
+      },
+      {
+        "title": "fix (select input): Select CSS",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2194,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2194"
+      },
+      {
+        "title": "Adding optional histogram to numeric filter.",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2226,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2226"
+      },
+      {
+        "title": "feat(dataview): Histogram utility",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2186,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2186"
+      },
+      {
+        "title": "fix(vector): Feature count returns when array is empty",
+        "type": "bug",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2196,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2196"
+      },
+      {
+        "title": "(feat): Histogram utility",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2184,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2184"
+      }
+    ],
+    "Dennis": [
+      {
+        "title": "Iterate theme.fields for count distribution",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2223,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2223"
+      },
+      {
+        "title": "Bump Openlayers; Scriptelement type param.",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2218,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2218"
+      },
+      {
+        "title": "Load mapbox rtl plugin from jsdelivr cdn",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2220,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2220"
+      },
+      {
+        "title": "init commit",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2225,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2225"
+      },
+      {
+        "title": "Move dictionaries to public; Loaded with utils.",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2213,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2213"
+      },
+      {
+        "title": "Remove unused merge import.",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2215,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2215"
+      },
+      {
+        "title": "feat(util): scriptElement utils module and mapboxStyle format",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2203,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2203"
+      },
+      {
+        "title": "fix(legendIcon): Clean up Openlayers Icon Style creation",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2173,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2173"
+      },
+      {
+        "title": "fix(vector): Cluster source change event method fails with empty features",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2200,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2200"
+      },
+      {
+        "title": "fix(entry.geometry): Disable geometry entry if api method fails to assign a value.",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2208,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2208"
+      },
+      {
+        "title": "feature(roles): Return roles.tree from workspace, support roles with dot separator.",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2176,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2176"
+      },
+      {
+        "title": "(bug): Non cached file templates should not be merged on each fetch",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.2",
+        "issueNumber": 2180,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2180"
+      },
+      {
+        "title": "(bug): Use flex grow in drawer header",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2172,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2172"
+      },
+      {
+        "title": "(bug): Apply zIndex to mapbox style layer",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2167,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2167"
+      },
+      {
+        "title": "Add description of csvDownload module methods.",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2162,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2162"
+      }
+    ],
+    "Simon": [
+      {
+        "title": "Basic theme legend: Show in the legend ",
+        "type": "bug",
+        "status": "in_review",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2222,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2222"
+      },
+      {
+        "title": "Dictionaries From Public",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2179,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2179"
+      },
+      {
+        "title": "fix(layer.entries) - Queryparams from layer and locale must be assigned to entry",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2209,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2209"
+      },
+      {
+        "title": "fix(plugins): Missing data-ids",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2198,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2198"
+      },
+      {
+        "title": "fix (layer entries): Remove Style Panel when no data",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2191,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2191"
+      },
+      {
+        "title": "fix(csv_upload): corrected schema",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2189,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2189"
+      },
+      {
+        "title": "(bug): Dropdown Fixes",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2182,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2182"
+      },
+      {
+        "title": "(bug): Encode userLocale Naming ",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2168,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2168"
+      },
+      {
+        "title": "(bug): Warning if both assign and merge provided",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2177,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2177"
+      },
+      {
+        "title": "(bug) : Locale.layer must not be deleted",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2171,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2171"
+      },
+      {
+        "title": "User Usage",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2159,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2159"
+      }
+    ],
+    "Alex": [
+      {
+        "title": "feat(decorate.flyTo): Fly to the extent of mvt entry type layers with featureSet/Lookup",
+        "type": "feature",
+        "status": "in_review",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2235,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2235"
+      },
+      {
+        "title": "feat(query): Zoom extent query",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2197,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2197"
+      },
+      {
+        "title": "feat(drawer): Drawer dialog popout",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.16.0",
+        "issueNumber": 2185,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2185"
+      },
+      {
+        "title": "fix(dialog): Prevent left and top from going negative",
+        "type": "bug",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.1",
+        "issueNumber": 2165,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2165"
+      }
+    ],
+    "Rob": [
+      {
+        "title": "fix(saml): Add `disableRequestedAuthnContext` Option to SAML Configuration",
+        "type": "bug",
+        "status": "in_review",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2231,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2231"
+      },
+      {
+        "title": "update patch version",
+        "type": "feature",
+        "status": "closed",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2217,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2217"
+      },
+      {
+        "title": "security(api): remove user controlled data",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.4",
+        "issueNumber": 2216,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2216"
+      },
+      {
+        "title": "package(biome): v2 update",
+        "type": "feature",
+        "status": "done",
+        "planned": "no",
+        "iteration": "v4.15.3",
+        "issueNumber": 2211,
+        "isPR": true,
+        "url": "https://github.com/GEOLYTIX/xyz/pull/2211"
+      }
+    ]
+  },
+  "iceBucket": [
+    {
+      "title": "Roles Front end",
+      "type": "feature",
+      "status": "in_progress",
+      "planned": "yes",
+      "iteration": "v4.16.0",
+      "issueNumber": 2099,
+      "isPR": false,
+      "url": "https://github.com/GEOLYTIX/xyz/issues/2099"
+    }
+  ]
+}

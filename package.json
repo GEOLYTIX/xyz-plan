@@ -1,17 +1,25 @@
 {
-  "name": "project",
+  "name": "xyz-plan",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "type": "module",
+  "description": "XYZ development planning and tracking",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "github:sync": "node scripts/github-sync-json.js sync",
+    "github:update": "node scripts/github-sync-json.js update",
+    "github:report": "node scripts/github-sync-json.js report",
+    "github:full": "node scripts/github-sync-json.js full",
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "planning",
+    "tracking",
+    "development"
+  ],
+  "author": "Robbie H",
   "license": "ISC",
   "packageManager": "pnpm@10.6.2",
   "devDependencies": {
@@ -19,6 +27,8 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
-    "vitepress-openapi": "0.0.3-alpha.77"
+    "vitepress-openapi": "0.0.3-alpha.77",
+    "@octokit/rest": "^20.0.0",
+    "dotenv": "^16.0.0"
   }
 }
